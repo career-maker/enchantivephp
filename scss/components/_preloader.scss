@@ -1,7 +1,7 @@
 @use '../abstracts/variables' as v;
-// Preloader: brand-blue screen, the logo rises in, then the screen lifts away.
+// Preloader: white screen, the logo rises in, then the screen lifts away.
 // Hidden without JS (html.no-js) and for reduced motion. Animates only transform and opacity.
-.preloader { position: fixed; inset: 0; z-index: 1000; display: none; place-items: center; background: v.$color-blue; transition: transform 0.7s cubic-bezier(0.7, 0, 0.2, 1);
+.preloader { position: fixed; inset: 0; z-index: 1000; display: none; place-items: center; background: v.$color-white; transition: transform 0.7s cubic-bezier(0.7, 0, 0.2, 1);
   &__inner { display: grid; justify-items: center; width: min(86vw, 22.5rem); transition: opacity 0.4s ease, transform 0.7s cubic-bezier(0.7, 0, 0.2, 1); }
   &__logo { width: 100%; height: auto; opacity: 0; animation: plRise 0.9s v.$ease 0.15s forwards; }
   &.is-exit { transform: translateY(-100%); }

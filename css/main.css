@@ -1940,7 +1940,7 @@ a:hover .icon-btn--diag svg {
   z-index: 1000;
   display: none;
   place-items: center;
-  background: #0658a7;
+  background: #fff;
   transition: transform 0.7s cubic-bezier(0.7, 0, 0.2, 1);
 }
 .preloader__inner {
