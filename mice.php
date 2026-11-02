@@ -66,7 +66,7 @@ require __DIR__ . '/includes/header.php';
   <div class="container reveal">
     <p class="eyebrow">Thailand Is Our Ground. Your Vision Sets the Direction.</p>
     <h2 class="h-1 cta__title" id="mice-cta-title">Let's Build Your Next MICE Programme.</h2>
-    <p class="cta__text">Whether you're planning a conference, an incentive trip, a leadership retreat, a gala dinner or a complete multi-day corporate programme, Enchantive Asia brings local knowledge, trusted relationships and hands-on coordination to the table.</p><p class="cta__text">Tell us what you have in mind. Share the objectives, the guest numbers and the details that matter most to you. We'll work with you to develop a programme that fits your brief and brings your vision to life in Thailand.</p>
+    <p class="cta__text">Whether you're planning a conference, an incentive trip, a leadership retreat, a gala dinner or a complete multi-day corporate programme, Enchantive Asia brings local knowledge, trusted relationships and hands-on coordination to the table. Tell us what you have in mind. Share the objectives, the guest numbers and the details that matter most to you. We'll work with you to develop a programme that fits your brief and brings your vision to life in Thailand.</p>
     <p class="cta__text"><strong>For you, it's a major event. For us, it's our everyday standard.</strong></p>
     <a class="btn btn--primary" href="contact?service=MICE#enquiry">Discuss Your MICE Requirements</a>
     <p class="cta__text">Enchantive Asia — Your MICE Partner in Thailand.</p>
