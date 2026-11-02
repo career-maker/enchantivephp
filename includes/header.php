@@ -47,7 +47,7 @@ $headerHtml = preg_replace(
 <meta name="theme-color" content="#0658a7">
 <link rel="icon" href="assets/icons/favicon.png" type="image/png" sizes="150x150">
 <link rel="apple-touch-icon" href="assets/icons/favicon.png">
-<link rel="preload" href="assets/fonts/fraunces-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Arcon-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="<?= asset('css/main.min.css') ?>">
 <script>document.documentElement.classList.remove('no-js')</script>
 </head>

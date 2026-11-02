@@ -10,8 +10,8 @@ $color-dark: #1a1717;
 $color-white: #fff;
 $color-line: #dfe6ef;
 
-// Single family site-wide (Fraunces variable, opsz+wght). Both tokens kept so existing rules resolve.
-$font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+// Single family site-wide (Arcon, single Regular weight). Both tokens kept so existing rules resolve.
+$font-serif: 'Arcon', 'Helvetica Neue', Arial, sans-serif;
 $font-sans: $font-serif;
 
 $container: 106.25rem;

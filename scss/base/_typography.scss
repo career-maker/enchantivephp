@@ -1,7 +1,7 @@
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as m;
 
-@font-face { font-family: 'Fraunces'; font-weight: 100 900; font-style: normal; font-display: swap; src: url('../assets/fonts/fraunces-latin-opsz-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Arcon'; font-weight: 100 900; font-style: normal; font-display: swap; src: url('../assets/fonts/Arcon-Regular.woff2') format('woff2'); }
 
 body { font-family: v.$font-sans; font-weight: 350; font-optical-sizing: auto; font-size: 1.2rem; line-height: 1.46; color: v.$color-text; background: v.$color-white; }
 // One shared gap between adjacent body paragraphs on every page (stack/prose/CTA).
@@ -20,7 +20,7 @@ p + p, .stack > p + p, .cta__text + .cta__text { margin-top: var(--para-gap); }
 .sr-only { @include m.visually-hidden; }
 .eyebrow--light { color: #fff; }
 
-// Fraunces tuning: headings use the high-contrast display optical size; body copy balances/pretties line breaks.
+// Heading tuning; body copy balances/pretties line breaks.
 .h-display, .h-1, .h-2, .h-3 { font-weight: 360; letter-spacing: -0.015em; text-wrap: balance; }
 .h-display { letter-spacing: -0.02em; }
 p, li { text-wrap: pretty; }
