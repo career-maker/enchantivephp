@@ -80,8 +80,12 @@ body {
   background: #fff;
 }
 
-p + p {
-  margin-top: 1.1em;
+:root {
+  --para-gap: 0.8em;
+}
+
+p + p, .stack > p + p, .cta__text + .cta__text {
+  margin-top: var(--para-gap);
 }
 
 .h-display, .h-1, .h-2, .h-3 {
@@ -4680,7 +4684,7 @@ html:not(.no-js) .preloader {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.4rem;
+  gap: 0;
   padding-block: 0.5rem;
 }
 .mice-intro__title {
