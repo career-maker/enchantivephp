@@ -6131,6 +6131,35 @@ li:nth-child(3) > .say-hello .quick-link {
   display: grid;
   gap: 0.75rem;
   align-content: start;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  transition: color 0.45s cubic-bezier(0.22, 0.61, 0.36, 1), border-color 0.45s cubic-bezier(0.22, 0.61, 0.36, 1), transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1), box-shadow 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.steps li::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(160deg, #0658a7, #083b73);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.55s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.steps li:hover {
+  color: #fff;
+  border-color: #0658a7;
+  transform: translateY(-4px);
+  box-shadow: 0 1.125rem 2.5rem rgba(6, 40, 90, 0.12);
+}
+.steps li:hover::before {
+  transform: scaleY(1);
+}
+.steps li:hover h3 {
+  color: #fff;
+}
+.steps li h3 {
+  transition: color 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .perfect strong {

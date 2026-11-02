@@ -18,7 +18,11 @@
     span { font-family: v.$font-sans; font-size: 0.8125rem; letter-spacing: 0.18em; text-transform: uppercase; color: v.$color-blue; } }
   a:last-child { @include m.up(sm) { text-align: right; } } }
 .steps { display: grid; gap: 1rem; list-style: none; padding: 0; margin: 0; counter-reset: s; @include m.up(lg) { grid-template-columns: repeat(5, 1fr); }
-  li { padding: 1.5rem; background: v.$color-white; border: 1px solid v.$color-line; border-radius: v.$radius-md; display: grid; gap: 0.75rem; align-content: start; } }
+  li { padding: 1.5rem; background: v.$color-white; border: 1px solid v.$color-line; border-radius: v.$radius-md; display: grid; gap: 0.75rem; align-content: start;
+    position: relative; isolation: isolate; overflow: hidden; transition: color 0.45s v.$ease, border-color 0.45s v.$ease, transform 0.45s v.$ease, box-shadow 0.45s v.$ease;
+    &::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(160deg, v.$color-blue, #083b73); transform: scaleY(0); transform-origin: bottom; transition: transform 0.55s v.$ease; }
+    &:hover { color: v.$color-white; border-color: v.$color-blue; transform: translateY(-4px); box-shadow: v.$shadow-card; &::before { transform: scaleY(1); } h3 { color: v.$color-white; } }
+    h3 { transition: color 0.45s v.$ease; } } }
 .perfect strong { font-weight: 500; color: v.$color-blue; }
 .hashtags { list-style: none; padding: 0; }
 .heading-center .eyebrow { margin-bottom: 0.5rem; }
