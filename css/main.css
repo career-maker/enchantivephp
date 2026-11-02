@@ -4530,7 +4530,8 @@ html:not(.no-js) .preloader {
   display: grid;
   gap: 0.75rem;
   justify-items: center;
-  max-width: 52rem;
+  max-width: none;
+  width: 100%;
 }
 .luxe-intro .stack:first-child::after {
   content: "";
@@ -4543,6 +4544,11 @@ html:not(.no-js) .preloader {
   font-size: clamp(2.25rem, 4.6vw, 4rem);
   line-height: 1.1;
   text-wrap: balance;
+}
+@media (min-width: 768px) {
+  .luxe-intro .stack:first-child h2 {
+    white-space: nowrap;
+  }
 }
 .luxe-intro .stack:first-child .h-3 {
   font-size: clamp(1.25rem, 1.8vw, 1.625rem);

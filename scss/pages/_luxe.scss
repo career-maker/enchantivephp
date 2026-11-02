@@ -24,9 +24,9 @@ $luxe-text: #111;
 // Intro: centred statement, copy in two columns, CTA centred below
 .luxe-intro { background: $luxe-cream; padding-block: clamp(2.5rem, 5vw, 4.5rem) clamp(1.5rem, 3vw, 3rem);
   .split { display: grid; grid-template-columns: 1fr; gap: clamp(1.25rem, 2.5vw, 2rem); justify-items: center; text-align: center; }
-  .stack:first-child { display: grid; gap: 0.75rem; justify-items: center; max-width: 52rem;
+  .stack:first-child { display: grid; gap: 0.75rem; justify-items: center; max-width: none; width: 100%;
     &::after { content: ''; width: 4rem; height: 2px; margin-top: 0.75rem; background: $luxe-tan; }
-    h2 { font-size: clamp(2.25rem, 4.6vw, 4rem); line-height: 1.1; text-wrap: balance; }
+    h2 { font-size: clamp(2.25rem, 4.6vw, 4rem); line-height: 1.1; text-wrap: balance; @include m.up(md) { white-space: nowrap; } }
     .h-3 { font-size: clamp(1.25rem, 1.8vw, 1.625rem); color: #8a6a44; } }
   .stack:last-child { display: grid; gap: 1.25rem clamp(2rem, 4vw, 4rem); max-width: none; width: 100%; text-align: center; margin: 0;
     > * { margin: 0; } p { color: $luxe-text; font-size: 1.375rem; line-height: 1.4; }
