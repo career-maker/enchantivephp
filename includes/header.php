@@ -4,8 +4,8 @@
 require_once __DIR__ . '/config.php';
 
 $is404 = ($page['status'] ?? 200) === 404;
-$self = basename($_SERVER['SCRIPT_NAME'] ?? 'index.php', '.php') . '.html';
-$url = SITE_URL . ($self === 'index.html' || $is404 ? '' : $self);
+$self = basename($_SERVER['SCRIPT_NAME'] ?? 'index.php', '.php');
+$url = SITE_URL . ($self === 'index' || $is404 ? '' : $self);
 $og = SITE_URL . ($page['og'] ?? 'assets/images/hero-koh-phangan-coast.webp');
 
 if ($is404) {

@@ -7,21 +7,21 @@
     <nav class="site-footer__group" aria-labelledby="f-quick">
       <h2 class="site-footer__title" id="f-quick">Quick Links</h2>
       <ul class="site-footer__links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="mice.html">MICE</a></li>
-        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="./">Home</a></li>
+        <li><a href="about">About Us</a></li>
+        <li><a href="mice">MICE</a></li>
+        <li><a href="destinations">Destinations</a></li>
         <li><span class="site-footer__soon">Blogs</span></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="contact">Contact Us</a></li>
       </ul>
     </nav>
     <nav class="site-footer__group" aria-labelledby="f-services">
       <h2 class="site-footer__title" id="f-services">Services</h2>
       <ul class="site-footer__links">
-        <li><a href="leisure.html">Leisure</a></li>
-        <li><a href="leisure.html#fit">FIT</a></li>
-        <li><a href="destination-weddings.html">Weddings</a></li>
-        <li><a href="celebrations-events.html">Celebrations &amp; Experiences</a></li>
+        <li><a href="leisure">Leisure</a></li>
+        <li><a href="leisure#fit">FIT</a></li>
+        <li><a href="destination-weddings">Weddings</a></li>
+        <li><a href="celebrations-events">Celebrations &amp; Experiences</a></li>
       </ul>
     </nav>
     <div class="site-footer__contact">
@@ -33,7 +33,7 @@
   <div class="site-footer__mark" aria-hidden="true"><div class="site-footer__mark-track"><span>ENCHANTIVE ASIA</span><span>ENCHANTIVE ASIA</span><span>ENCHANTIVE ASIA</span><span>ENCHANTIVE ASIA</span></div></div>
   <div class="site-footer__bar">
     <div class="container site-footer__bar-inner">
-      <p class="site-footer__legal">&copy; 2025 Enchantive Asia &nbsp;|&nbsp; All Rights Reserved &nbsp;|&nbsp; <a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms.html">Terms</a></p>
+      <p class="site-footer__legal">&copy; 2025 Enchantive Asia &nbsp;|&nbsp; All Rights Reserved &nbsp;|&nbsp; <a href="privacy">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms">Terms</a></p>
       <ul class="social" aria-label="Social media">
         <li><span role="img" aria-label="Facebook (link to be added)"><svg aria-hidden="true"><use href="#i-facebook"/></svg></span></li>
         <li><span role="img" aria-label="YouTube (link to be added)"><svg aria-hidden="true"><use href="#i-youtube"/></svg></span></li>

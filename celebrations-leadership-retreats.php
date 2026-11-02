@@ -10,7 +10,7 @@ require __DIR__ . '/includes/header.php';
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/cel-02-leadership-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
   <div class="container hero__inner">
-    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="celebrations-events.html">Celebrations &amp; Experiences</a></li><li aria-current="page">Leadership Retreats</li></ol></nav>
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li><a href="celebrations-events">Celebrations &amp; Experiences</a></li><li aria-current="page">Leadership Retreats</li></ol></nav>
     <h1 class="h-display hero__title">Leadership Retreats</h1>
   </div>
 </section>
@@ -18,11 +18,11 @@ require __DIR__ . '/includes/header.php';
   <div class="container split split--top">
     <div class="stack reveal"><p class="eyebrow">02 / 11</p><h2 class="h-1" id="c-title">Think bigger. Connect deeper. Lead forward.</h2><p class="lead">Take your leadership team beyond the boardroom. We find inspiring destinations, private settings and experiences that encourage fresh thinking and stronger connections. Every retreat is shaped around your objectives, giving your team the space to reconnect, exchange ideas and move forward with purpose.</p><div class="media media--wide"><img src="assets/images/temp/mice-retreat-temp.webp" alt="Leadership Retreats" width="1400" height="933" loading="lazy"></div></div>
     <nav class="pager pager--inline" aria-label="Previous and next">
-    <a href="destination-weddings.html"><span>Previous</span>Destination Weddings</a>
-    <a href="celebrations-themed-celebrations-and-signature-events.html"><span>Next</span>Themed Celebrations &amp; Signature Events</a>
+    <a href="destination-weddings"><span>Previous</span>Destination Weddings</a>
+    <a href="celebrations-themed-celebrations-and-signature-events"><span>Next</span>Themed Celebrations &amp; Signature Events</a>
     </nav>
     <div class="related reveal"><h2 class="h-3 related__title">Related Experiences</h2>
-    <div class="tile-aside"><a class="tile" href="celebrations-themed-celebrations-and-signature-events.html"><img src="assets/images/temp/cel-03-themed-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Themed Celebrations &amp; Signature Events</span></span></a><a class="tile" href="celebrations-private-gala-dinners.html"><img src="assets/images/temp/cel-04-gala-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Private Gala Dinners</span></span></a><a class="tile" href="celebrations-awards-nights-and-recognition-celebrations.html"><img src="assets/images/temp/cel-05-awards-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Awards Nights &amp; Recognition Celebrations</span></span></a><a class="tile" href="celebrations-brand-launches-and-vip-events.html"><img src="assets/images/temp/cel-06-brand-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Brand Launches &amp; VIP Events</span></span></a></div>
+    <div class="tile-aside"><a class="tile" href="celebrations-themed-celebrations-and-signature-events"><img src="assets/images/temp/cel-03-themed-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Themed Celebrations &amp; Signature Events</span></span></a><a class="tile" href="celebrations-private-gala-dinners"><img src="assets/images/temp/cel-04-gala-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Private Gala Dinners</span></span></a><a class="tile" href="celebrations-awards-nights-and-recognition-celebrations"><img src="assets/images/temp/cel-05-awards-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Awards Nights &amp; Recognition Celebrations</span></span></a><a class="tile" href="celebrations-brand-launches-and-vip-events"><img src="assets/images/temp/cel-06-brand-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Brand Launches &amp; VIP Events</span></span></a></div>
     </div>
   </div>
 </section>

@@ -9,7 +9,7 @@ require __DIR__ . '/includes/header.php';
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/bangkok-temple-sunset.webp" alt="" width="1000" height="1500" fetchpriority="high"></div>
   <div class="container hero__inner">
-    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Terms &amp; Conditions</li></ol></nav>
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li aria-current="page">Terms &amp; Conditions</li></ol></nav>
     <h1 class="h-display hero__title">Terms &amp; Conditions</h1>
   </div>
 </section>
@@ -37,7 +37,7 @@ require __DIR__ . '/includes/header.php';
       <h2 class="h-3">8. Governing law</h2>
       <p>These terms are governed by the laws of the Kingdom of Thailand, and the courts of Thailand have jurisdiction over any dispute, unless the law requires otherwise.</p>
       <h2 class="h-3">9. Contact</h2>
-      <p>Questions about these terms can be sent to <a href="mailto:info@enchantiveasia.com">info@enchantiveasia.com</a>. See also our <a href="privacy.html">Privacy Policy</a>.</p>
+      <p>Questions about these terms can be sent to <a href="mailto:info@enchantiveasia.com">info@enchantiveasia.com</a>. See also our <a href="privacy">Privacy Policy</a>.</p>
     </article>
   </div>
 </section>

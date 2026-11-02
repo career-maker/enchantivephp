@@ -1,6 +1,6 @@
 # Enchantive Asia – PHP website (PHP + Sass)
 
-Implementation of the approved homepage design (`Design.pdf`) plus inner pages. Pages are PHP files that share header/footer/CTA includes; page URLs stay `*.html` (rewritten to the `.php` files).
+Implementation of the approved homepage design (`Design.pdf`) plus inner pages. Pages are PHP files that share header/footer/CTA includes; clean URLs (`/about`, no extension) are rewritten to the `.php` files and old `.html` URLs redirect.
 
 ## Install / build / run
 ```bash
@@ -13,7 +13,7 @@ npm run check          # verifies local links, anchors and duplicate ids
 On Apache (XAMPP/Laragon/production) the `.htaccess` provides the same URL rewriting as `router.php`; `mod_rewrite` and `mod_headers` must be enabled.
 
 ## Structure
-- `*.php` (root) – one file per page. Each starts with a `$page = [title, desc, nav, og]` array, then `require includes/header.php`, the page body, `require includes/footer.php`. Page links stay `about.html`; `.htaccess` / `router.php` map them to `about.php`.
+- `*.php` (root) – one file per page. Each starts with a `$page = [title, desc, nav, og]` array, then `require includes/header.php`, the page body, `require includes/footer.php`. Page links are clean (`about`, `contact?service=MICE#enquiry`); `.htaccess` / `router.php` map them to `about.php` and 301 old `.html` / `.php` URLs.
 - `includes/` – `config.php` (site constants, mail mode), `header.php` / `footer.php` (document shell), `partials/` (`header`, `footer`, `cta` (exact supplied copy), `sprite` (SVG icons), `preloader`). Blocked from the web.
 - `contact-submit.php` – enquiry form handler (JSON). `MAIL_MODE = 'log'` saves to `storage/enquiries.log` (git-ignored); set `'mail'` (and SMTP/`mail()` on the host) for production. Put overrides in `includes/config.local.php` (git-ignored).
 - `router.php` – local dev router only.

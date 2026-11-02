@@ -11,11 +11,17 @@
 DirectoryIndex index.php
 ErrorDocument 404 /404.php
 
-# Pretty URLs: /about.html is served by about.php (page URLs stay .html).
+# Clean URLs: /about is served by about.php. Old /about.html and /about.php 301 to /about.
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteRule ^index\.(html|php)$ ./ [R=301,L]
+  RewriteRule ^([A-Za-z0-9_-]+)\.html$ $1 [R=301,L]
+  RewriteCond %{THE_REQUEST} \s[^\s]*\.php[\s?]
+  RewriteRule ^(?!contact-submit\.php$|404\.php$)([A-Za-z0-9_-]+)\.php$ $1 [R=301,L]
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^([A-Za-z0-9_-]+)\.html$ $1.php [L]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.php -f
+  RewriteRule ^([A-Za-z0-9_-]+)$ $1.php [L]
 </IfModule>
 # Hide build tooling, sources and docs from the web (only built pages, css/, js/, assets/ are public)
 RedirectMatch 404 /(\.git|\.deploy|includes|storage|node_modules|scripts|src|scss|docs|qa-report|design-mockups)(/|$)

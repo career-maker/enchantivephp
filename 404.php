@@ -15,18 +15,18 @@ require __DIR__ . '/includes/header.php';
     <h1 class="h-display hero__title">This Journey Has Taken a Wrong Turn</h1>
     <p class="hero__sub">The page you are looking for has moved, or never existed. Let us point you back to somewhere worth going.</p>
     <div class="hero__actions">
-      <a class="btn btn--glass" href="index.html">Back to Home</a>
-      <a class="btn btn--glass" href="services.html">Explore Services</a>
-      <a class="btn btn--glass" href="contact.html">Contact Us</a>
+      <a class="btn btn--glass" href="./">Back to Home</a>
+      <a class="btn btn--glass" href="services">Explore Services</a>
+      <a class="btn btn--glass" href="contact">Contact Us</a>
     </div>
     <nav class="notfound__links" aria-label="Popular pages">
       <span class="notfound__links-label">Popular</span>
-      <a href="destinations.html">Destinations</a>
-      <a href="leisure.html">Leisure</a>
-      <a href="mice.html">MICE</a>
-      <a href="celebrations-events.html">Celebrations</a>
-      <a href="luxe-experiences.html">Luxe Experiences</a>
-      <a href="gallery.html">Gallery</a>
+      <a href="destinations">Destinations</a>
+      <a href="leisure">Leisure</a>
+      <a href="mice">MICE</a>
+      <a href="celebrations-events">Celebrations</a>
+      <a href="luxe-experiences">Luxe Experiences</a>
+      <a href="gallery">Gallery</a>
     </nav>
   </div>
 </section>

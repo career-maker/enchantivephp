@@ -10,7 +10,7 @@ require __DIR__ . '/includes/header.php';
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/bangkok-skyline.webp" alt="" width="1400" height="933" fetchpriority="high"></div>
   <div class="container hero__inner">
-    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">About Us</li></ol></nav>
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li aria-current="page">About Us</li></ol></nav>
     <h1 class="h-display hero__title">Where Thailand Becomes Exceptional</h1>
   </div>
 </section>

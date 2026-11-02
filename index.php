@@ -16,7 +16,7 @@ require __DIR__ . '/includes/header.php';
   <div class="container hero__inner">
     <h1 class="h-display hero__title">Exceptional Journeys, Our Expertise, Extraordinary Experiences.</h1>
     <p class="hero__sub">Tailor-made travel solutions and ground-handling services for global partners.</p>
-    <div class="hero__actions"><a class="btn btn--glass" href="contact.html">Partner With Us</a></div>
+    <div class="hero__actions"><a class="btn btn--glass" href="contact">Partner With Us</a></div>
     <div class="hero__dots" role="group" aria-label="Hero slides">
       <button type="button" aria-label="Slide 1" aria-current="true"></button>
       <button type="button" aria-label="Slide 2" aria-current="false"></button>
@@ -25,7 +25,7 @@ require __DIR__ . '/includes/header.php';
     </div>
   </div>
   <div class="hero__rail">
-    <p class="hero__vertical"><a href="celebrations-events.html">Celebrations &amp; Experience</a> <span aria-hidden="true">/</span> <a href="leisure.html">Leisure</a> <span aria-hidden="true">/</span> <a href="luxe-experiences.html">Lux Experience</a></p>
+    <p class="hero__vertical"><a href="celebrations-events">Celebrations &amp; Experience</a> <span aria-hidden="true">/</span> <a href="leisure">Leisure</a> <span aria-hidden="true">/</span> <a href="luxe-experiences">Lux Experience</a></p>
     <div class="hero__contacts">
       <a href="tel:+6620282867" aria-label="Call +66 2028 2867"><svg aria-hidden="true"><use href="#i-phone"/></svg></a>
       <a href="mailto:info@enchantiveasia.com" aria-label="Email info@enchantiveasia.com"><svg aria-hidden="true"><use href="#i-mail"/></svg></a>
@@ -56,7 +56,7 @@ require __DIR__ . '/includes/header.php';
     <div class="about-band__body reveal">
       <p class="about-band__lead">Built on strong relationships across Thailand’s hospitality and travel landscape, we provide our partners with reliable solutions, responsive support, and consistently high service standards—ensuring every journey and event is delivered seamlessly from planning to completion.</p>
       <p>Our strength lies in the details. From exclusive venue access and curated experiences for corporates, to theme-based meetings and events, supplier selection, itinerary design, logistics, operations, and on-ground coordination, our experienced team manages every element with precision and professionalism.</p>
-      <a class="btn btn--glass" href="about.html">Read More</a>
+      <a class="btn btn--glass" href="about">Read More</a>
     </div>
   </div>
 </section>
@@ -76,7 +76,7 @@ require __DIR__ . '/includes/header.php';
       <h2 class="h-1" id="mice-title">Meetings, Incentives,<br>Conferences &amp; Exhibitions</h2>
       <p>What sets us apart is the strength of our people, our ground team, and the local connections we have built across thailand. with over 15 years of industry experience within our team and more than 20 years of dmc expertise among our stakeholders, mice is not simply a service we offer—it is what we know best. our deep local network, combined with strong partnerships with international hotel chains, trusted vendors, venues, and service providers, allows us to deliver truly end-to-end mice programs with precision and consistency. from groups of 10 to 1,000 guests, we manage every element of the experience—from venue and hotel sourcing, transportation and logistics to event production, décor, vip handling, customised experiences, and tailored culinary requirements.</p>
       <p>We work closely with our partners to accommodate diverse cuisine preferences and dietary requirements, going the extra mile to ensure that every guest receives the dining experience they expect, regardless of the size or complexity of the program. whether it is a minor adjustment or a complete transformation of an event concept, our team has the knowledge, resources, and flexibility to make it happen. with enchantive asia, you are not simply appointing an event partner—you<br>are putting your program in the hands of a team that knows thailand, understands mice, and takes ownership of every detail from the first conversation to the final guest departure. “for you, it’s a major event. for us, it’s our everyday standard.”</p>
-      <a class="btn btn--outline" href="mice.html">Read More</a>
+      <a class="btn btn--outline" href="mice">Read More</a>
     </div>
     <div class="mice-gallery reveal">
       <figure><img src="assets/images/temp/mice-gala-temp.webp" alt="Guests at a formal gala dinner" width="1400" height="933" loading="lazy"></figure>
@@ -95,9 +95,9 @@ require __DIR__ . '/includes/header.php';
     <div class="carousel" data-carousel>
       <div class="carousel__viewport" tabindex="0" role="group" aria-roledescription="carousel" aria-label="Our experiences">
         <div class="carousel__track">
-          <a class="tile tile--hover" href="celebrations-events.html"><img src="assets/images/beach-wedding-setup.webp" alt="Beachfront wedding dining table beneath a draped canopy" width="1200" height="800" loading="lazy"><span class="tile__label">Celebrations &amp; Experience</span><span class="tile__panel"><span><span class="tile__title">Celebrations &amp; Experience</span><span class="tile__text">Destination weddings, milestone birthdays, family reunions and parties, managed from venue to run of show.</span></span><span class="icon-btn icon-btn--diag" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></span></a>
-          <a class="tile tile--hover" href="leisure.html"><img src="assets/images/villa-infinity-lounge.webp" alt="Villa lounge overlooking the sea" width="1200" height="801" loading="lazy"><span class="tile__label">Leisure</span><span class="tile__panel"><span><span class="tile__title">Leisure</span><span class="tile__text">Discover memorable experiences, relaxing escapes, and exciting activities designed to make every leisure moment special.</span></span><span class="icon-btn icon-btn--diag" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></span></a>
-          <a class="tile tile--hover" href="luxe-experiences.html"><img src="assets/images/phi-phi-longtail-boats.webp" alt="Longtail boats in a turquoise Phi Phi lagoon" width="1200" height="800" loading="lazy"><span class="tile__label">Lux Experience</span><span class="tile__panel"><span><span class="tile__title">Lux Experience</span><span class="tile__text">Private yacht charters, estate and island buyouts and executive team retreats, delivered with discretion.</span></span><span class="icon-btn icon-btn--diag" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></span></a>
+          <a class="tile tile--hover" href="celebrations-events"><img src="assets/images/beach-wedding-setup.webp" alt="Beachfront wedding dining table beneath a draped canopy" width="1200" height="800" loading="lazy"><span class="tile__label">Celebrations &amp; Experience</span><span class="tile__panel"><span><span class="tile__title">Celebrations &amp; Experience</span><span class="tile__text">Destination weddings, milestone birthdays, family reunions and parties, managed from venue to run of show.</span></span><span class="icon-btn icon-btn--diag" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></span></a>
+          <a class="tile tile--hover" href="leisure"><img src="assets/images/villa-infinity-lounge.webp" alt="Villa lounge overlooking the sea" width="1200" height="801" loading="lazy"><span class="tile__label">Leisure</span><span class="tile__panel"><span><span class="tile__title">Leisure</span><span class="tile__text">Discover memorable experiences, relaxing escapes, and exciting activities designed to make every leisure moment special.</span></span><span class="icon-btn icon-btn--diag" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></span></a>
+          <a class="tile tile--hover" href="luxe-experiences"><img src="assets/images/phi-phi-longtail-boats.webp" alt="Longtail boats in a turquoise Phi Phi lagoon" width="1200" height="800" loading="lazy"><span class="tile__label">Lux Experience</span><span class="tile__panel"><span><span class="tile__title">Lux Experience</span><span class="tile__text">Private yacht charters, estate and island buyouts and executive team retreats, delivered with discretion.</span></span><span class="icon-btn icon-btn--diag" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></span></a>
         </div>
       </div>
       <div class="carousel__nav">
@@ -114,7 +114,7 @@ require __DIR__ . '/includes/header.php';
       <h2 class="h-1" id="dest-title">Discover Thailand’s<br>Iconic Locations</h2>
       <div class="section-heading__aside">
         <p>We are professionals in planning any corporate event, including product launches! Just let us know the requirements, and our expert will curate and design the workflow to make the event wonderful.</p>
-        <a class="btn btn--outline" href="destinations.html">Discover More</a>
+        <a class="btn btn--outline" href="destinations">Discover More</a>
       </div>
     </div>
     <div class="locations">
@@ -126,7 +126,7 @@ require __DIR__ . '/includes/header.php';
         <button class="locations__btn" role="tab" aria-selected="false" data-location data-img="assets/images/temp/dest-hua-hin-temp.webp" data-alt="Fishing boats on the Hua Hin coast" type="button">Hua Hin <span class="icon-btn" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></button>
       </div>
       <div class="locations__photo" role="tabpanel"><img class="is-current" data-location-photo src="assets/images/temp/dest-bangkok-temp.webp" alt="Wat Arun on the Chao Phraya river at sunset, Bangkok" width="1400" height="933" loading="lazy"><img class="is-next" data-location-photo-next src="" alt="" width="1400" height="933" aria-hidden="true"></div>
-      <a class="btn btn--outline locations__more" href="destinations.html">Discover More</a>
+      <a class="btn btn--outline locations__more" href="destinations">Discover More</a>
     </div>
   </div>
 </section>
@@ -231,7 +231,7 @@ require __DIR__ . '/includes/header.php';
   <p class="cta__ghost" aria-hidden="true">GET IN TOUCH WITH US</p>
   <div class="container reveal">
     <h2 class="h-1 cta__title" id="home-cta-title">Experience the enchantive difference:<br>Partner with us to unlock thailand’s premier venues<br>&amp; best-kept secrets.</h2>
-    <a class="btn btn--white" href="contact.html">Enquire Now</a>
+    <a class="btn btn--white" href="contact">Enquire Now</a>
   </div>
 </section>
 <?php require __DIR__ . '/includes/footer.php'; ?>

@@ -10,7 +10,7 @@ require __DIR__ . '/includes/header.php';
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/dest-ayutthaya-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
   <div class="container hero__inner">
-    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="destinations.html">Destinations</a></li><li aria-current="page">Ayutthaya</li></ol></nav>
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li><a href="destinations">Destinations</a></li><li aria-current="page">Ayutthaya</li></ol></nav>
     <h1 class="h-display hero__title">Ayutthaya</h1>
   </div>
 </section>
@@ -47,10 +47,10 @@ require __DIR__ . '/includes/header.php';
   <div class="container">
     <div class="section-heading"><h2 class="h-2" id="d-other">More Destinations</h2></div>
     <div class="topic-grid topic-grid--4">
-      <a class="topic-card" href="destination-bangkok.html"><span class="topic-card__img"><img src="assets/images/temp/dest-bangkok-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Bangkok</span></a>
-      <a class="topic-card" href="destination-chiang-mai.html"><span class="topic-card__img"><img src="assets/images/temp/dest-chiang-mai-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Chiang Mai</span></a>
-      <a class="topic-card" href="destination-pattaya.html"><span class="topic-card__img"><img src="assets/images/temp/dest-pattaya-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Pattaya</span></a>
-      <a class="topic-card" href="destination-hua-hin.html"><span class="topic-card__img"><img src="assets/images/temp/dest-hua-hin-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Hua Hin</span></a>
+      <a class="topic-card" href="destination-bangkok"><span class="topic-card__img"><img src="assets/images/temp/dest-bangkok-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Bangkok</span></a>
+      <a class="topic-card" href="destination-chiang-mai"><span class="topic-card__img"><img src="assets/images/temp/dest-chiang-mai-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Chiang Mai</span></a>
+      <a class="topic-card" href="destination-pattaya"><span class="topic-card__img"><img src="assets/images/temp/dest-pattaya-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Pattaya</span></a>
+      <a class="topic-card" href="destination-hua-hin"><span class="topic-card__img"><img src="assets/images/temp/dest-hua-hin-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Hua Hin</span></a>
     </div>
   </div>
 </section>

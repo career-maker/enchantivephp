@@ -15,16 +15,19 @@ if ($path === '/') {
     return true;
 }
 
-// Pretty URLs: /about.html is served by about.php. Direct .php page URLs 301 to the .html form.
-if (preg_match('#^/([A-Za-z0-9_-]+)\.html$#', $path, $m) && is_file(__DIR__ . "/{$m[1]}.php") && $m[1] !== '404') {
+// Clean URLs: /about is served by about.php. Old /about.html and /about.php 301 to /about (index -> /).
+$q = ($_SERVER['QUERY_STRING'] ?? '') !== '' ? '?' . $_SERVER['QUERY_STRING'] : '';
+if (preg_match('#^/([A-Za-z0-9_-]+)\.(html|php)$#', $path, $m) && !in_array($m[1], ['contact-submit', '404', 'router'], true) && is_file(__DIR__ . "/{$m[1]}.php")) {
+    header('Location: /' . ($m[1] === 'index' ? '' : $m[1]) . $q, true, 301);
+    return true;
+}
+if (preg_match('#^/([A-Za-z0-9_-]+)$#', $path, $m) && !in_array($m[1], ['contact-submit', '404', 'router'], true) && is_file(__DIR__ . "/{$m[1]}.php")) {
     $_SERVER['SCRIPT_NAME'] = "/{$m[1]}.php";
     require __DIR__ . "/{$m[1]}.php";
     return true;
 }
-if (preg_match('#^/([A-Za-z0-9_-]+)\.php$#', $path, $m) && !in_array($m[1], ['contact-submit', '404'], true)) {
-    $q = ($_SERVER['QUERY_STRING'] ?? '') !== '' ? '?' . $_SERVER['QUERY_STRING'] : '';
-    header('Location: /' . ($m[1] === 'index' ? '' : $m[1] . '.html') . $q, true, 301);
-    return true;
+if ($path === '/contact-submit.php') {
+    return false; // handler is requested directly by the form
 }
 
 $file = __DIR__ . $path;

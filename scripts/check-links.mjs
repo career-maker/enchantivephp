@@ -13,7 +13,7 @@ for (const f of pages) {
     if (/^(https?:|mailto:|tel:|data:|#)/.test(u)) { if (u.startsWith('#') && u.length > 1 && !u.startsWith('#i-') && !ids.includes(u.slice(1))) { console.log(`${f}: missing anchor ${u}`); bad++; } continue; }
     const [p0, hash] = u.split('#'); const p = p0.split('?')[0];
     if (!p) continue;
-    const pf = p.endsWith('.html') ? p.replace(/\.html$/, '.php') : p; // page URLs stay .html, files are .php
+    const pf = /\.[a-z0-9]+$/i.test(p) ? p : (p === './' || p === '.' ? 'index.php' : p + '.php'); // clean page URLs map to .php files
     if (!existsSync(join(root, pf))) { console.log(`${f}: missing ${u}`); bad++; }
     else if (hash && p.endsWith('.php') && !['router.php','contact-submit.php'].includes(f) && !new RegExp(`id="${hash}"`).test(readFileSync(join(root, p), 'utf8'))) { console.log(`${f}: missing anchor ${u}`); bad++; }
   }

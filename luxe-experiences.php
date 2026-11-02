@@ -8,16 +8,16 @@ $page = [
 require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero hero--inner">
-  <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/luxe-hero-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
+  <div class="hero__slides"><img class="hero__slide is-active" style="object-position: 50% 85%" src="assets/images/temp/luxe-hero-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
   <div class="container hero__inner">
-    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li aria-current="page">Luxe Experiences</li></ol></nav>
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li><a href="services">Services</a></li><li aria-current="page">Luxe Experiences</li></ol></nav>
     <h1 class="h-display hero__title">Luxe Experiences</h1>
   </div>
 </section>
 <section class="section luxe-intro" aria-labelledby="luxe-title">
   <div class="container split split--top">
     <div class="stack reveal"><h2 class="h-1" id="luxe-title">Luxury, Curated the Enchantive Way.</h2><p class="h-3">The Art of Experiencing More.</p></div>
-    <div class="stack reveal"><p>At Enchantive Asia, luxury is not simply about where you go, but how every moment is imagined, personalised and delivered. With deep local expertise, exceptional industry relationships and an uncompromising commitment to detail, we create extraordinary experiences across Thailand that bring together exclusivity, authentic discovery and effortless sophistication.</p><p>From private yacht charters and extraordinary culinary journeys to exclusive villa retreats and bespoke celebrations, every experience is thoughtfully curated around your vision. Backed by our on-ground expertise and end-to-end execution, we turn ambitious ideas into seamless, memorable moments — crafted entirely around you.</p><a class="btn btn--primary" href="contact.html?service=Luxe+Experiences#enquiry">Enquire<span class="btn__more"> About a Luxe Experience</span></a></div>
+    <div class="stack reveal"><p>At Enchantive Asia, luxury is not simply about where you go, but how every moment is imagined, personalised and delivered. With deep local expertise, exceptional industry relationships and an uncompromising commitment to detail, we create extraordinary experiences across Thailand that bring together exclusivity, authentic discovery and effortless sophistication.</p><p>From private yacht charters and extraordinary culinary journeys to exclusive villa retreats and bespoke celebrations, every experience is thoughtfully curated around your vision. Backed by our on-ground expertise and end-to-end execution, we turn ambitious ideas into seamless, memorable moments — crafted entirely around you.</p><a class="btn btn--primary" href="contact?service=Luxe+Experiences#enquiry">Enquire<span class="btn__more"> About a Luxe Experience</span></a></div>
   </div>
 </section>
 <section class="luxe-collection" aria-label="The Luxe collection">

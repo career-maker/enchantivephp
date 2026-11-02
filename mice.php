@@ -10,7 +10,7 @@ require __DIR__ . '/includes/header.php';
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/mice-hero-conference.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
   <div class="container hero__inner">
-    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">MICE</li></ol></nav>
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li aria-current="page">MICE</li></ol></nav>
     <h1 class="h-display hero__title">Meetings, Incentives, Conferences &amp; Exhibitions</h1>
   </div>
 </section>
@@ -21,7 +21,7 @@ require __DIR__ . '/includes/header.php';
       <p class="lead">Exceptional events don't happen by chance. They're built on experience, local knowledge and a team that takes ownership.</p>
       <p>At Enchantive Asia, MICE is at the heart of what we do. We bring together the people, places and expertise needed to deliver corporate programmes across Thailand, with every element planned around your objectives, your guests and the experience you want to create.</p><p>With over 15 years of industry experience within our team and more than 20 years of DMC expertise among our stakeholders, we understand what it takes to bring a complex programme together. From a focused leadership meeting to a multi-day incentive programme for 1,000 guests, we take responsibility for the details that make the difference.</p><p>Our strength lies in our people, our on-ground team and the relationships we have built with hotels, venues, suppliers and service providers across Thailand. We work behind the scenes to make every moving part come together, giving you the confidence to focus on your guests and the purpose of your event.</p>
       <p class="h-3">One partner. One coordinated programme. Every detail taken care of.</p>
-      <a class="btn btn--primary" href="contact.html?service=MICE#enquiry">Plan Your MICE Programme</a>
+      <a class="btn btn--primary" href="contact?service=MICE#enquiry">Plan Your MICE Programme</a>
     </div>
     <div class="photo-mosaic reveal"><img src="assets/images/mice-intro-stage.webp" alt="Speaker presenting to a seated audience at a conference" width="1400" height="933" loading="lazy"><img src="assets/images/temp/mice-gala-temp.webp" alt="Guests at a formal gala dinner" width="1400" height="933" loading="lazy"><img src="assets/images/temp/mice-team-temp.webp" alt="Team meeting around a table" width="1400" height="933" loading="lazy"><img src="assets/images/temp/mice-launch-temp.webp" alt="Product launch on stage" width="1400" height="933" loading="lazy"></div>
   </div>
@@ -68,7 +68,7 @@ require __DIR__ . '/includes/header.php';
     <h2 class="h-1 cta__title" id="mice-cta-title">Let's Build Your Next MICE Programme.</h2>
     <p class="cta__text">Whether you're planning a conference, an incentive trip, a leadership retreat, a gala dinner or a complete multi-day corporate programme, Enchantive Asia brings local knowledge, trusted relationships and hands-on coordination to the table.</p><p class="cta__text">Tell us what you have in mind. Share the objectives, the guest numbers and the details that matter most to you. We'll work with you to develop a programme that fits your brief and brings your vision to life in Thailand.</p>
     <p class="cta__text"><strong>For you, it's a major event. For us, it's our everyday standard.</strong></p>
-    <a class="btn btn--primary" href="contact.html?service=MICE#enquiry">Discuss Your MICE Requirements</a>
+    <a class="btn btn--primary" href="contact?service=MICE#enquiry">Discuss Your MICE Requirements</a>
     <p class="cta__text">Enchantive Asia — Your MICE Partner in Thailand.</p>
   </div>
 </section>

@@ -10,7 +10,7 @@ require __DIR__ . '/includes/header.php';
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/cel-10-music-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
   <div class="container hero__inner">
-    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="celebrations-events.html">Celebrations &amp; Experiences</a></li><li aria-current="page">Live Music &amp; Entertainment</li></ol></nav>
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li><a href="celebrations-events">Celebrations &amp; Experiences</a></li><li aria-current="page">Live Music &amp; Entertainment</li></ol></nav>
     <h1 class="h-display hero__title">Live Music &amp; Entertainment</h1>
   </div>
 </section>
@@ -18,11 +18,11 @@ require __DIR__ . '/includes/header.php';
   <div class="container split split--top">
     <div class="stack reveal"><p class="eyebrow">10 / 11</p><h2 class="h-1" id="c-title">Set the mood. Steal the show.</h2><p class="lead">The right entertainment can transform an occasion. From soulful live performances and captivating bands to celebrated artists and high-energy DJs, we help you find the perfect fit for your event, creating an atmosphere that brings people together and keeps the energy alive.</p><div class="media media--wide"><img src="assets/images/temp/mice-themed-temp.webp" alt="Live Music &amp; Entertainment" width="1400" height="933" loading="lazy"></div></div>
     <nav class="pager pager--inline" aria-label="Previous and next">
-    <a href="celebrations-client-appreciation-experiences.html"><span>Previous</span>Client Appreciation Experiences</a>
-    <a href="celebrations-exclusive-after-parties.html"><span>Next</span>Exclusive After-Parties</a>
+    <a href="celebrations-client-appreciation-experiences"><span>Previous</span>Client Appreciation Experiences</a>
+    <a href="celebrations-exclusive-after-parties"><span>Next</span>Exclusive After-Parties</a>
     </nav>
     <div class="related reveal"><h2 class="h-3 related__title">Related Experiences</h2>
-    <div class="tile-aside"><a class="tile" href="celebrations-exclusive-after-parties.html"><img src="assets/images/temp/cel-11-after-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Exclusive After-Parties</span></span></a><a class="tile" href="destination-weddings.html"><img src="assets/images/temp/cel-01-weddings-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Destination Weddings</span></span></a><a class="tile" href="celebrations-leadership-retreats.html"><img src="assets/images/temp/cel-02-leadership-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Leadership Retreats</span></span></a><a class="tile" href="celebrations-themed-celebrations-and-signature-events.html"><img src="assets/images/temp/cel-03-themed-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Themed Celebrations &amp; Signature Events</span></span></a></div>
+    <div class="tile-aside"><a class="tile" href="celebrations-exclusive-after-parties"><img src="assets/images/temp/cel-11-after-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Exclusive After-Parties</span></span></a><a class="tile" href="destination-weddings"><img src="assets/images/temp/cel-01-weddings-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Destination Weddings</span></span></a><a class="tile" href="celebrations-leadership-retreats"><img src="assets/images/temp/cel-02-leadership-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Leadership Retreats</span></span></a><a class="tile" href="celebrations-themed-celebrations-and-signature-events"><img src="assets/images/temp/cel-03-themed-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Themed Celebrations &amp; Signature Events</span></span></a></div>
     </div>
   </div>
 </section>
