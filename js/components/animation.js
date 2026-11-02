@@ -67,7 +67,7 @@ function initAnimation() {
   const mq = window.matchMedia('(max-width: 767.98px)');
   const place = (t) => { if (!photo) return; if (mq.matches) t.after(photo); else wrap.insertBefore(photo, wrap.querySelector('.locations__more')); };
   const sel = () => tabs.find((x) => x.getAttribute('aria-selected') === 'true') || tabs[0];
-  if (photo && tabs.length) { place(sel()); mq.addEventListener('change', () => place(sel())); tabs.forEach((t) => t.addEventListener('click', () => place(t))); }
+  if (photo && tabs.length) { place(sel()); mq.addEventListener('change', () => place(sel())); tabs.forEach((t) => t.addEventListener('click', () => { if (t.dataset.href && (!mq.matches || t.getAttribute('aria-selected') === 'true')) { location.href = t.dataset.href; return; } place(t); })); }
   tabs.forEach((t) => ['mouseenter', 'focus', 'click'].forEach((ev) => t.addEventListener(ev, () => select(t))));
 }
 
