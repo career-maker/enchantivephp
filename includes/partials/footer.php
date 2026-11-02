@@ -11,7 +11,6 @@
         <li><a href="about">About Us</a></li>
         <li><a href="mice">MICE</a></li>
         <li><a href="destinations">Destinations</a></li>
-        <li><span class="site-footer__soon">Blogs</span></li>
         <li><a href="contact">Contact Us</a></li>
       </ul>
     </nav>
