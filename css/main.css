@@ -4334,7 +4334,6 @@ html:not(.no-js) .preloader {
   max-width: none;
   font-size: 1.375rem;
   line-height: 1.4;
-  text-wrap: balance;
 }
 
 .hear .section-heading {
