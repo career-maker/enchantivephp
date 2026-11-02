@@ -4331,8 +4331,7 @@ html:not(.no-js) .preloader {
   }
 }
 .cta.cta--plain .cta__text {
-  max-width: 62rem;
-  text-wrap: balance;
+  max-width: none;
 }
 
 .hear .section-heading {
