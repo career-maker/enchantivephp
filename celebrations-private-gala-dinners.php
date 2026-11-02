@@ -1,0 +1,30 @@
+<?php
+$page = [
+  'title' => 'Private Gala Dinners | Celebrations & Experiences | Enchantive Asia',
+  'desc' => 'Some evenings call for something truly special. We bring together exceptional venues, refined dining and considered entertainment to create memorable private dinners and gala evenings. Whether you are hosting a select group of VIP guests or a grand celebration, we take care of the details that make the evening feel effortless.',
+  'nav' => 'celebrations',
+  'og' => 'assets/images/temp/cel-04-gala-temp.webp',
+];
+require __DIR__ . '/includes/header.php';
+?>
+<section class="hero hero--inner">
+  <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/cel-04-gala-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
+  <div class="container hero__inner">
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="celebrations-events.html">Celebrations &amp; Experiences</a></li><li aria-current="page">Private Gala Dinners</li></ol></nav>
+    <h1 class="h-display hero__title">Private Gala Dinners</h1>
+  </div>
+</section>
+<section class="section" aria-labelledby="c-title">
+  <div class="container split split--top">
+    <div class="stack reveal"><p class="eyebrow">04 / 11</p><h2 class="h-1" id="c-title">An exceptional evening. An unforgettable impression.</h2><p class="lead">Some evenings call for something truly special. We bring together exceptional venues, refined dining and considered entertainment to create memorable private dinners and gala evenings. Whether you are hosting a select group of VIP guests or a grand celebration, we take care of the details that make the evening feel effortless.</p><div class="media media--wide"><img src="assets/images/temp/mice-gala-temp.webp" alt="Private Gala Dinners" width="1400" height="933" loading="lazy"></div></div>
+    <nav class="pager pager--inline" aria-label="Previous and next">
+    <a href="celebrations-themed-celebrations-and-signature-events.html"><span>Previous</span>Themed Celebrations &amp; Signature Events</a>
+    <a href="celebrations-awards-nights-and-recognition-celebrations.html"><span>Next</span>Awards Nights &amp; Recognition Celebrations</a>
+    </nav>
+    <div class="related reveal"><h2 class="h-3 related__title">Related Experiences</h2>
+    <div class="tile-aside"><a class="tile" href="celebrations-awards-nights-and-recognition-celebrations.html"><img src="assets/images/temp/cel-05-awards-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Awards Nights &amp; Recognition Celebrations</span></span></a><a class="tile" href="celebrations-brand-launches-and-vip-events.html"><img src="assets/images/temp/cel-06-brand-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Brand Launches &amp; VIP Events</span></span></a><a class="tile" href="celebrations-corporate-anniversaries-and-milestone-events.html"><img src="assets/images/temp/cel-07-anniversary-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Corporate Anniversaries &amp; Milestone Events</span></span></a><a class="tile" href="celebrations-private-parties-and-reunions.html"><img src="assets/images/temp/cel-08-parties-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Private Parties &amp; Reunions</span></span></a></div>
+    </div>
+  </div>
+</section>
+<?php include __DIR__ . '/includes/partials/cta.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

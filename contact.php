@@ -1,0 +1,83 @@
+<?php
+$page = [
+  'title' => 'Contact Us | Enchantive Asia',
+  'desc' => 'Tell Enchantive Asia where you want to go, who you are bringing and how you want it to feel.',
+  'nav' => 'contact',
+  'og' => 'assets/images/coastal-road-aerial.webp',
+];
+require __DIR__ . '/includes/header.php';
+?>
+<section class="hero hero--inner">
+  <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/coastal-road-aerial.webp" alt="" width="1440" height="681" fetchpriority="high"></div>
+  <div class="container hero__inner">
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Contact</li></ol></nav>
+    <h1 class="h-display hero__title">Contact Us</h1>
+  </div>
+</section>
+<section class="section contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="contact__intro stack reveal">
+      <h2 class="h-1" id="contact-title">Tell Us Where You Want to Go</h2>
+      <p>Have a route in mind, a milestone to mark, or just an idea you want to bounce off someone who actually knows Thailand inside out? Don’t waste hours guessing logistics. Tell us where you want to go, who you’re bringing along, and how you want it to feel—our team will handle the properties, the connections, and every single moving part behind the scenes.</p>
+    </div>
+    <ul class="contact-cards" aria-label="Contact details">
+      <li class="contact-card"><svg aria-hidden="true"><use href="#i-phone"/></svg><p class="contact-card__title">Phone</p><p><a href="tel:+6620282867">+66 2028 2867</a></p></li>
+      <li class="contact-card"><svg aria-hidden="true"><use href="#i-mail"/></svg><p class="contact-card__title">Email</p><p><a href="mailto:info@enchantiveasia.com">info@enchantiveasia.com</a></p></li>
+      <li class="contact-card"><svg aria-hidden="true"><use href="#i-pin"/></svg><p class="contact-card__title">Address</p><address>RASA TWO, Level 18, 1818, Petchaburi Road, Makkasan, Ratchathewi<br>Bangkok 10400, Thailand</address></li>
+    </ul>
+    <div class="say-hello">
+      <p class="say-hello__eyebrow"><span>Get in touch</span></p>
+      <h2 class="say-hello__title"><span class="say-hello__lead">Let’s talk.</span> <em>We’ll shape the journey.</em></h2>
+      <p class="say-hello__sub">Reach us whichever way suits you, or fill in the short form below.</p>
+      <ul class="quick-links" aria-label="Quick ways to reach us">
+        <li><a class="quick-link" href="https://wa.me/6620282867" rel="noopener"><span class="quick-link__icon quick-link__icon--wa"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span class="quick-link__text"><strong>WhatsApp</strong></span></a></li>
+        <li><a class="quick-link" href="https://line.me/ti/p/~enchantiveasia" rel="noopener" aria-label="Line"><span class="quick-link__icon quick-link__icon--line"><svg aria-hidden="true"><use href="#i-line"/></svg></span><span class="quick-link__text"><strong>Line</strong></span></a></li>
+        <li><a class="quick-link" href="https://www.instagram.com/enchantiveasia/" rel="noopener" aria-label="Instagram"><span class="quick-link__icon quick-link__icon--ig"><svg aria-hidden="true"><use href="#i-instagram"/></svg></span><span class="quick-link__text"><strong>Instagram</strong></span></a></li>
+      </ul>
+    </div>
+    <p class="divider" aria-hidden="true"><span>Send us an enquiry</span></p>
+    <div class="enquiry-wrap">
+    <figure class="enquiry-photo"><img src="assets/images/temp/luxe-01-andaman-temp.webp" alt="Sailboat at sunset on the Andaman Sea" width="1400" height="933" loading="lazy"></figure>
+    <form class="enquiry" id="enquiry" data-validate data-endpoint="contact-submit.php" method="post" action="contact-submit.php" novalidate aria-label="Enquiry form">
+      <p class="sr-only" aria-hidden="true"><label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>
+      <ol class="stepper" aria-label="Progress"><li data-step-dot><span>1</span>Who</li><li data-step-dot><span>2</span>Contact</li><li data-step-dot><span>3</span>Journey</li></ol>
+            <fieldset class="enquiry__group field" data-step>
+        <legend class="h-2">Who are we planning for? <span class="optional">Optional</span></legend>
+        <div class="choices">
+          <label class="choice"><input type="radio" name="traveller_type" value="Travel agent"><span class="choice__body"><span class="choice__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-3.5 3-6 7-6s7 2.5 7 6"/></svg></span><span class="choice__title">Travel agent</span><span class="choice__sub">Booking for clients</span></span></label>
+          <label class="choice"><input type="radio" name="traveller_type" value="Tour operator"><span class="choice__body"><span class="choice__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="1"/><path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2"/></svg></span><span class="choice__title">Tour operator</span><span class="choice__sub">Building a programme for your brand</span></span></label>
+          <label class="choice"><input type="radio" name="traveller_type" value="Group or corporate"><span class="choice__body"><span class="choice__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="9" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20c0-3 2.7-5 6-5s6 2 6 5M16 15c3 0 5 1.7 5 4.5"/></svg></span><span class="choice__title">Group or corporate</span><span class="choice__sub">Incentives, meetings, events</span></span></label>
+          <label class="choice"><input type="radio" name="traveller_type" value="Wedding or celebration"><span class="choice__body"><span class="choice__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="14" r="5"/><circle cx="16" cy="14" r="5"/><path d="M8 5l1-2 1 2"/></svg></span><span class="choice__title">Wedding or celebration</span><span class="choice__sub">Weddings, anniversaries, milestones</span></span></label>
+        </div>
+        <span class="field__error" aria-live="polite"></span>
+      </fieldset>
+      <fieldset class="enquiry__group" data-step data-title-from="traveller_type">
+        <legend class="h-2"><span data-step-title>Your contact details</span><small class="legend__sub" hidden>Your contact details</small></legend>
+        <div class="form">
+          <div class="field"><label for="f-name">Full name <span class="req" aria-hidden="true">*</span></label><input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name"><span class="field__error" id="e-name" aria-live="polite"></span></div>
+          <div class="field"><label for="f-email">Email <span class="req" aria-hidden="true">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="e-email"><span class="field__error" id="e-email" aria-live="polite"></span></div>
+          <div class="field"><label for="f-company">Company or agency</label><input id="f-company" name="company" type="text" autocomplete="organization" aria-describedby="e-company"><span class="field__error" id="e-company" aria-live="polite"></span></div>
+          <div class="field"><label for="f-country">Country</label><input id="f-country" name="country" type="text" autocomplete="country-name" aria-describedby="e-country"><span class="field__error" id="e-country" aria-live="polite"></span></div>
+          <div class="field"><label for="f-phone">WhatsApp or phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="+ country code" aria-describedby="e-phone"><span class="field__error" id="e-phone" aria-live="polite"></span></div>
+          <div class="field"><label for="f-method">Best way to reach you</label><select id="f-method" name="contact_method" aria-describedby="e-method"><option>Email</option><option>Phone</option><option>WhatsApp</option></select><span class="field__error" id="e-method" aria-live="polite"></span></div>
+        </div>
+      </fieldset>
+      <fieldset class="enquiry__group" data-step>
+        <legend class="h-2">About your journey</legend>
+        <div class="form">
+          <div class="field form__full"><label for="f-service">Service of interest <span class="req" aria-hidden="true">*</span></label>
+            <select id="f-service" name="service" required aria-describedby="e-service"><option value="">Select a service</option><option>Destinations</option><option>MICE</option><option>Celebrations &amp; Experiences</option><option>Luxe Experiences</option><option>Leisure</option><option>Other</option></select><span class="field__error" id="e-service" aria-live="polite"></span></div>
+          <div class="field form__full"><label for="f-msg">What should this trip achieve? <span class="req" aria-hidden="true">*</span></label><textarea id="f-msg" name="message" required placeholder="Dates, destinations, group size, the feel you’re after." aria-describedby="e-msg"></textarea><span class="field__error" id="e-msg" aria-live="polite"></span></div>
+          <div class="field"><label for="f-dates">Preferred travel or event dates</label><input id="f-dates" name="dates" type="text" aria-describedby="e-dates"><span class="field__error" id="e-dates" aria-live="polite"></span></div>
+          <div class="field"><label for="f-guests">Number of guests</label><input id="f-guests" name="guests" type="number" min="1" inputmode="numeric" aria-describedby="e-guests"><span class="field__error" id="e-guests" aria-live="polite"></span></div>
+          <div class="field"><label for="f-needs">Dietary, access or privacy needs</label><input id="f-needs" name="needs" type="text" aria-describedby="e-needs"><span class="field__error" id="e-needs" aria-live="polite"></span></div>
+          <div class="field"><label for="f-source">How did you find us?</label><select id="f-source" name="source" aria-describedby="e-source"><option value="">Select</option><option>Search engine</option><option>Social media</option><option>Referral</option><option>Event or trade show</option><option>Other</option></select><span class="field__error" id="e-source" aria-live="polite"></span></div>
+        </div>
+      </fieldset>
+      <div class="enquiry__actions"><button class="btn btn--outline" type="button" data-prev hidden>Back</button><button class="btn btn--primary" type="button" data-next>Next</button><button class="btn btn--primary" type="submit" hidden>Send Enquiry</button></div>
+      <div class="form-status" role="status" aria-live="polite"></div>
+    </form>
+    </div>
+  </div>
+</section>
+<?php require __DIR__ . '/includes/footer.php'; ?>

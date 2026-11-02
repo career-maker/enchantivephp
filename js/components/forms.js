@@ -8,6 +8,7 @@ function initForms() {
 
     const check = (el) => {
       const f = el.closest('.field');
+      if (!f) return true; // e.g. the honeypot input
       const err = f.querySelector('.field__error');
       let msg = '';
       if (el.required && !el.value.trim()) msg = 'This field is required.';
@@ -74,9 +75,10 @@ function initForms() {
       say('info', 'Sending…');
       try {
         const res = await fetch(endpoint, { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(form) });
-        if (!res.ok) throw new Error(String(res.status));
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || data.ok === false) { say('error', data.message || 'Sorry, we could not send your enquiry. Please try again or email info@enchantiveasia.com.'); return; }
         form.reset();
-        say('success', 'Thank you. Your enquiry has been sent and our team will be in touch shortly.');
+        say('success', data.message || 'Thank you. Your enquiry has been sent and our team will be in touch shortly.');
       } catch {
         say('error', 'Sorry, we could not send your enquiry. Please try again or email info@enchantiveasia.com.');
       } finally {

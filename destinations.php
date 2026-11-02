@@ -1,0 +1,43 @@
+<?php
+$page = [
+  'title' => 'Destinations | Enchantive Asia',
+  'desc' => 'From Bangkok\'s vibrant skyline to the mountains of the north, every destination in Thailand has its own character, and every journey deserves a different approach.',
+  'nav' => 'destinations',
+  'og' => 'assets/images/temp/destinations-hero-temp.webp',
+];
+require __DIR__ . '/includes/header.php';
+?>
+<section class="hero hero--inner">
+  <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/destinations-hero-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
+  <div class="container hero__inner">
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Destinations</li></ol></nav>
+    <h1 class="h-display hero__title">Destinations</h1>
+  </div>
+</section>
+<section class="section dh-intro" aria-labelledby="dest-hub-title">
+  <div class="container dh-intro__grid">
+    <h2 class="h-1 reveal" id="dest-hub-title">Five Destinations. One Partner Who Knows Thailand.</h2>
+    <div class="stack reveal"><p>From Bangkok's vibrant skyline to the mountains of the north, every destination in Thailand has its own character, and every journey deserves a different approach.</p><p>At Enchantive Asia, we bring together local knowledge, trusted relationships and thoughtful planning to create experiences that feel right for each destination and every guest. Whether you're organising a corporate programme for 1,000 guests, planning a private escape or creating a journey that combines business with leisure, our team takes care of the details from the first conversation to the final goodbye.</p></div>
+  </div>
+</section>
+<section class="dh-panels" aria-label="Destinations">
+  <div class="container">
+    <div class="strip-grid dh-grid">
+      <a class="strip dh-panel" href="destination-bangkok.html"><img src="assets/images/temp/dest-bangkok-temp.webp" alt="" width="1600" height="1067" loading="lazy"><div class="strip__body"><span class="dh-panel__num">01</span><h3>Bangkok</h3><p>The Capital, Curated.</p><span class="btn btn--white dh-panel__go">Explore Bangkok</span></div></a><a class="strip dh-panel" href="destination-chiang-mai.html"><img src="assets/images/temp/dest-chiang-mai-temp.webp" alt="" width="1600" height="1067" loading="lazy"><div class="strip__body"><span class="dh-panel__num">02</span><h3>Chiang Mai</h3><p>Mountains, Craft &amp; Slow Mornings.</p><span class="btn btn--white dh-panel__go">Explore Chiang Mai</span></div></a><a class="strip dh-panel" href="destination-pattaya.html"><img src="assets/images/temp/dest-pattaya-temp.webp" alt="" width="1600" height="1067" loading="lazy"><div class="strip__body"><span class="dh-panel__num">03</span><h3>Pattaya</h3><p>The Coast, Built for Groups.</p><span class="btn btn--white dh-panel__go">Explore Pattaya</span></div></a><a class="strip dh-panel" href="destination-ayutthaya.html"><img src="assets/images/temp/dest-ayutthaya-temp.webp" alt="" width="1600" height="1067" loading="lazy"><div class="strip__body"><span class="dh-panel__num">04</span><h3>Ayutthaya</h3><p>Where Thailand's Story Lives On.</p><span class="btn btn--white dh-panel__go">Explore Ayutthaya</span></div></a><a class="strip dh-panel" href="destination-hua-hin.html"><img src="assets/images/temp/dest-hua-hin-temp.webp" alt="" width="1600" height="1067" loading="lazy"><div class="strip__body"><span class="dh-panel__num">05</span><h3>Hua Hin</h3><p>A Royal Seaside, Made for Occasions.</p><span class="btn btn--white dh-panel__go">Explore Hua Hin</span></div></a>
+    </div>
+  </div>
+</section>
+<section class="section dh-journey" aria-labelledby="dest-journey-title">
+  <div class="container">
+    <div class="dh-journey__head reveal"><h2 class="h-1" id="dest-journey-title">One Journey. Many Possibilities.</h2><div class="stack"><p>Thailand is best experienced when its destinations complement one another. Begin with Bangkok's energy, slow down with a coastal retreat in Hua Hin, or discover the country's heritage in Ayutthaya. For guests seeking culture, nature and a different pace, Chiang Mai offers another side of Thailand.</p><p>We bring these destinations together through carefully planned itineraries, seamless transfers and experiences that flow naturally from one place to the next.</p></div></div>
+  </div>
+</section>
+<section class="dh-plan" aria-labelledby="dest-plan-title">
+  <img src="assets/images/temp/dest-hua-hin-temp.webp" alt="" width="1600" height="1067" loading="lazy">
+  <div class="container reveal">
+    <p class="eyebrow eyebrow--light">LET'S PLAN YOUR THAILAND</p>
+    <h2 class="h-1" id="dest-plan-title">One Country. Countless Ways to Experience It.</h2>
+    <p>Every group has a different reason to travel, and every destination has something different to offer. Whether you know exactly what you want or need a little inspiration, Enchantive Asia brings together the local knowledge, trusted partnerships and attention to detail to help make it happen.</p><p>Tell us what you're planning. We'll take it from there.</p>
+  </div>
+</section>
+<?php require __DIR__ . '/includes/footer.php'; ?>

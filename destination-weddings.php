@@ -1,0 +1,30 @@
+<?php
+$page = [
+  'title' => 'Destination Weddings | Celebrations & Experiences | Enchantive Asia',
+  'desc' => 'Say “I do” somewhere unforgettable. From breathtaking beachfront ceremonies to elegant resort celebrations, we bring your vision to life with thoughtful planning, beautiful details and a seamless experience from beginning to end.',
+  'nav' => 'celebrations',
+  'og' => 'assets/images/temp/cel-01-weddings-temp.webp',
+];
+require __DIR__ . '/includes/header.php';
+?>
+<section class="hero hero--inner">
+  <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/cel-01-weddings-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
+  <div class="container hero__inner">
+    <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="celebrations-events.html">Celebrations &amp; Experiences</a></li><li aria-current="page">Destination Weddings</li></ol></nav>
+    <h1 class="h-display hero__title">Destination Weddings</h1>
+  </div>
+</section>
+<section class="section" aria-labelledby="c-title">
+  <div class="container split split--top">
+    <div class="stack reveal"><p class="eyebrow">01 / 11</p><h2 class="h-1" id="c-title">Your love story. An extraordinary setting.</h2><p class="lead">Say “I do” somewhere unforgettable. From breathtaking beachfront ceremonies to elegant resort celebrations, we bring your vision to life with thoughtful planning, beautiful details and a seamless experience from beginning to end.</p><div class="media media--wide"><img src="assets/images/temp/cel-hub-hero-temp.webp" alt="Destination Weddings" width="1400" height="933" loading="lazy"></div></div>
+    <nav class="pager pager--inline" aria-label="Previous and next">
+    <a href="celebrations-exclusive-after-parties.html"><span>Previous</span>Exclusive After-Parties</a>
+    <a href="celebrations-leadership-retreats.html"><span>Next</span>Leadership Retreats</a>
+    </nav>
+    <div class="related reveal"><h2 class="h-3 related__title">Related Experiences</h2>
+    <div class="tile-aside"><a class="tile" href="celebrations-leadership-retreats.html"><img src="assets/images/temp/cel-02-leadership-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Leadership Retreats</span></span></a><a class="tile" href="celebrations-themed-celebrations-and-signature-events.html"><img src="assets/images/temp/cel-03-themed-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Themed Celebrations &amp; Signature Events</span></span></a><a class="tile" href="celebrations-private-gala-dinners.html"><img src="assets/images/temp/cel-04-gala-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Private Gala Dinners</span></span></a><a class="tile" href="celebrations-awards-nights-and-recognition-celebrations.html"><img src="assets/images/temp/cel-05-awards-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Awards Nights &amp; Recognition Celebrations</span></span></a></div>
+    </div>
+  </div>
+</section>
+<?php include __DIR__ . '/includes/partials/cta.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>
