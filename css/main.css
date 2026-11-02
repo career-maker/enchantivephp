@@ -4322,6 +4322,17 @@ html:not(.no-js) .preloader {
 }
 .cta.cta--plain .cta__title {
   color: #111111;
+  max-width: none;
+  text-wrap: balance;
+}
+@media (min-width: 768px) {
+  .cta.cta--plain .cta__title {
+    white-space: nowrap;
+  }
+}
+.cta.cta--plain .cta__text {
+  max-width: 62rem;
+  text-wrap: balance;
 }
 
 .hear .section-heading {

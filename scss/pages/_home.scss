@@ -461,7 +461,7 @@
 @include m.down(md) { .locations__more { display: inline-flex; } }
 
 // Plain CTA: light tint background, no photo
-.cta.cta--plain { background: v.$color-tint; color: v.$color-text; text-shadow: none; &::after { content: none; } .cta__title { color: v.$color-ink; } }
+.cta.cta--plain { background: v.$color-tint; color: v.$color-text; text-shadow: none; &::after { content: none; } .cta__title { color: v.$color-ink; max-width: none; text-wrap: balance; @media (min-width: 768px) { white-space: nowrap; } } .cta__text { max-width: 62rem; text-wrap: balance; } }
 // Testimonials: centred title only, no intro paragraph or button
 .hear .section-heading { margin-bottom: 2.5rem; }
 
