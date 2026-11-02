@@ -4332,6 +4332,8 @@ html:not(.no-js) .preloader {
 }
 .cta.cta--plain .cta__text {
   max-width: none;
+  font-size: 1.375rem;
+  line-height: 1.4;
 }
 
 .hear .section-heading {
@@ -4558,9 +4560,8 @@ html:not(.no-js) .preloader {
 }
 .luxe-intro .stack:last-child p {
   color: #111;
-  font-size: clamp(1rem, 1.1vw, 1.125rem);
-  line-height: 1.75;
-  text-wrap: balance;
+  font-size: 1.375rem;
+  line-height: 1.4;
 }
 .luxe-intro .stack:last-child .btn {
   grid-column: 1/-1;
