@@ -28,9 +28,8 @@ $luxe-text: #111;
     &::after { content: ''; width: 4rem; height: 2px; margin-top: 0.75rem; background: $luxe-tan; }
     h2 { font-size: clamp(2.25rem, 4.6vw, 4rem); line-height: 1.1; text-wrap: balance; }
     .h-3 { font-size: clamp(1.25rem, 1.8vw, 1.625rem); color: #8a6a44; } }
-  .stack:last-child { display: grid; gap: 1.25rem clamp(2rem, 4vw, 4rem); max-width: 70rem; text-align: left; margin: 0;
-    @include m.up(md) { grid-template-columns: 1fr 1fr; }
-    > * { margin: 0; } p { color: $luxe-text; font-size: clamp(1rem, 1.1vw, 1.125rem); line-height: 1.75; }
+  .stack:last-child { display: grid; gap: 1.25rem clamp(2rem, 4vw, 4rem); max-width: none; width: 100%; text-align: center; margin: 0;
+    > * { margin: 0; } p { color: $luxe-text; font-size: clamp(1rem, 1.1vw, 1.125rem); line-height: 1.75; text-wrap: balance; }
     .btn { grid-column: 1 / -1; justify-self: center; } } }
 
 // Experience rows: ghost numeral behind the copy, offset gold frame on photos, hashtag pills
