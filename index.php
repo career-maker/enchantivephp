@@ -134,7 +134,7 @@ require __DIR__ . '/includes/header.php';
 <section class="section hear" aria-labelledby="hear-title">
   <div class="container">
     <div class="section-heading section-heading--center">
-      <h2 class="h-1" id="hear-title">Hear It From Our<br>Partners</h2>
+      <h2 class="h-1" id="hear-title">Hear It From Our Partners</h2>
     </div>
     <div class="quote-marquee">
       <div class="quote-marquee__track">
