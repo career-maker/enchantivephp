@@ -6871,10 +6871,10 @@ li:nth-child(3) > .say-hello .quick-link {
   display: grid;
   justify-items: center;
   gap: 1rem;
-  max-width: 72rem;
+  max-width: none;
 }
 .dh-plan .container > p {
-  max-width: 52rem;
+  max-width: none;
 }
 .dh-plan .h-1 {
   color: #fff;
