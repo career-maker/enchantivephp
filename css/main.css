@@ -6475,47 +6475,69 @@ li:nth-child(3) > .say-hello .quick-link {
 }
 
 .lz-intro {
-  padding-bottom: clamp(2rem, 4vw, 3.5rem);
+  padding-bottom: clamp(1.5rem, 3vw, 2.5rem);
 }
 .lz-intro__lead {
-  max-width: 28em;
+  max-width: 34em;
   margin-inline: auto;
   text-align: center;
+  text-wrap: balance;
   font-family: "Arcon", "Helvetica Neue", Arial, sans-serif;
-  font-size: clamp(1.5rem, 2.6vw, 2.5rem);
-  line-height: 1.25;
+  font-size: clamp(1.375rem, 2.4vw, 2.25rem);
+  line-height: 1.3;
   color: #111111;
 }
 .lz-intro__cta {
   display: flex;
   justify-content: center;
-  margin-top: 1.5rem;
+  margin-top: clamp(1.25rem, 2vw, 1.75rem);
 }
 .lz-intro__row {
   display: grid;
-  gap: clamp(1.5rem, 4vw, 4rem);
-  margin-top: clamp(3rem, 6vw, 5rem);
-  padding-top: clamp(2rem, 4vw, 3rem);
-  border-top: 1px solid #dfe6ef;
+  align-items: start;
+  gap: clamp(2rem, 4vw, 3rem);
+  margin-top: clamp(2rem, 4vw, 3.5rem);
 }
 @media (min-width: 992px) {
   .lz-intro__row {
     grid-template-columns: 1fr 1fr;
+    gap: clamp(3rem, 6vw, 6rem);
   }
+}
+.lz-intro__row .h-1, .lz-intro__row .h-2 {
+  font-size: clamp(1.625rem, 3vw, 2.5rem);
+  line-height: 1.2;
+}
+.lz-intro__row .stack {
+  max-width: 34rem;
+}
+.lz-intro__row .stack > * + * {
+  margin-top: clamp(0.875rem, 1.5vw, 1.25rem);
+}
+.lz-intro__row .stack > .btn {
+  margin-top: clamp(1.25rem, 2vw, 1.75rem);
 }
 
 .lz-marquee {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem clamp(1.5rem, 4vw, 4rem);
+  display: grid;
+  gap: 0.75rem;
   list-style: none;
-  padding: 0;
-  margin: clamp(2.5rem, 5vw, 4rem) 0 0;
+  padding: clamp(1.5rem, 3vw, 2.25rem) 0 0;
+  margin: clamp(2rem, 4vw, 3.5rem) 0 0;
+  border-top: 1px solid #dfe6ef;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .lz-marquee {
+    grid-template-columns: repeat(3, 1fr);
+    gap: clamp(1rem, 3vw, 3rem);
+  }
 }
 .lz-marquee li {
   font-family: "Arcon", "Helvetica Neue", Arial, sans-serif;
-  font-size: clamp(1.25rem, 2.2vw, 2rem);
+  font-size: clamp(1.125rem, 1.9vw, 1.75rem);
+  line-height: 1.25;
+  text-wrap: balance;
   color: #0658a7;
 }
 
