@@ -6475,15 +6475,15 @@ li:nth-child(3) > .say-hello .quick-link {
 }
 
 .lz-intro {
-  padding-bottom: clamp(1.5rem, 3vw, 2.5rem);
+  padding-block: clamp(2.5rem, 5vw, 4.5rem);
 }
 .lz-intro__lead {
-  max-width: 34em;
+  max-width: 36em;
   margin-inline: auto;
   text-align: center;
   text-wrap: balance;
   font-family: "Arcon", "Helvetica Neue", Arial, sans-serif;
-  font-size: clamp(1.375rem, 2.4vw, 2.25rem);
+  font-size: clamp(1.375rem, 2.6vw, 2.375rem);
   line-height: 1.3;
   color: #111111;
 }
@@ -6494,51 +6494,88 @@ li:nth-child(3) > .say-hello .quick-link {
 }
 .lz-intro__row {
   display: grid;
-  align-items: start;
-  gap: clamp(2rem, 4vw, 3rem);
   margin-top: clamp(2rem, 4vw, 3.5rem);
+  border-radius: 1.75rem;
+  overflow: hidden;
+  box-shadow: 0 1.125rem 2.5rem rgba(6, 40, 90, 0.12);
+  background: #fff;
 }
 @media (min-width: 992px) {
   .lz-intro__row {
     grid-template-columns: 1fr 1fr;
-    gap: clamp(3rem, 6vw, 6rem);
   }
 }
-.lz-intro__row .h-1, .lz-intro__row .h-2 {
-  font-size: clamp(1.625rem, 3vw, 2.5rem);
+
+.lz-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: clamp(1.75rem, 4.5vw, 4.5rem);
+}
+.lz-panel .h-1, .lz-panel .h-2 {
+  font-size: clamp(1.625rem, 2.8vw, 2.5rem);
   line-height: 1.2;
 }
-.lz-intro__row .stack {
-  max-width: 34rem;
-}
-.lz-intro__row .stack > * + * {
+.lz-panel > * + * {
   margin-top: clamp(0.875rem, 1.5vw, 1.25rem);
 }
-.lz-intro__row .stack > .btn {
-  margin-top: clamp(1.25rem, 2vw, 1.75rem);
+.lz-panel > .btn {
+  margin-top: clamp(1.25rem, 2vw, 2rem);
+}
+.lz-panel p {
+  max-width: 32rem;
+}
+.lz-panel--blue {
+  background: #0658a7;
+  color: #fff;
+}
+.lz-panel--blue .h-1 {
+  color: #fff;
+}
+.lz-panel--blue p {
+  color: rgba(255, 255, 255, 0.88);
+}
+.lz-panel:not(.lz-panel--blue)::before {
+  content: "";
+  width: 3rem;
+  height: 3px;
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+  background: #e8372a;
+  border-radius: 2px;
 }
 
 .lz-marquee {
   display: grid;
-  gap: 0.75rem;
   list-style: none;
-  padding: clamp(1.5rem, 3vw, 2.25rem) 0 0;
+  padding: 0;
   margin: clamp(2rem, 4vw, 3.5rem) 0 0;
-  border-top: 1px solid #dfe6ef;
   text-align: center;
 }
 @media (min-width: 768px) {
   .lz-marquee {
     grid-template-columns: repeat(3, 1fr);
-    gap: clamp(1rem, 3vw, 3rem);
   }
 }
 .lz-marquee li {
+  padding: clamp(0.75rem, 1.5vw, 1.25rem) clamp(1rem, 2.5vw, 2.5rem);
   font-family: "Arcon", "Helvetica Neue", Arial, sans-serif;
   font-size: clamp(1.125rem, 1.9vw, 1.75rem);
   line-height: 1.25;
   text-wrap: balance;
   color: #0658a7;
+  border-top: 1px solid #dfe6ef;
+}
+.lz-marquee li:first-child {
+  border-top: 0;
+}
+@media (min-width: 768px) {
+  .lz-marquee li {
+    border-top: 0;
+  }
+  .lz-marquee li + li {
+    border-left: 1px solid #dfe6ef;
+  }
 }
 
 .lz-item {
@@ -6687,13 +6724,17 @@ li:nth-child(3) > .say-hello .quick-link {
 
 .dh-intro__grid {
   display: grid;
-  gap: clamp(1.5rem, 4vw, 4rem);
-  align-items: end;
+  justify-items: center;
+  text-align: center;
+  gap: clamp(1.25rem, 2.5vw, 2rem);
 }
-@media (min-width: 992px) {
-  .dh-intro__grid {
-    grid-template-columns: 6fr 5fr;
-  }
+.dh-intro__grid .stack {
+  max-width: none;
+  width: 100%;
+}
+.dh-intro__grid .stack > p:first-child {
+  font-size: clamp(1.125rem, 1.6vw, 1.375rem);
+  line-height: 1.5;
 }
 
 .dh-intro h2 {
@@ -6830,10 +6871,19 @@ li:nth-child(3) > .say-hello .quick-link {
   display: grid;
   justify-items: center;
   gap: 1rem;
+  max-width: 72rem;
+}
+.dh-plan .container > p {
   max-width: 52rem;
 }
 .dh-plan .h-1 {
   color: #fff;
+  font-size: clamp(1.5rem, 3.3vw, 2.75rem);
+}
+@media (min-width: 576px) {
+  .dh-plan .h-1 {
+    white-space: nowrap;
+  }
 }
 
 .pm-tile {

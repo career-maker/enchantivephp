@@ -14,13 +14,13 @@ require __DIR__ . '/includes/header.php';
     <h1 class="h-display hero__title">Discover Thailand. Your Way.</h1>
   </div>
 </section>
-<section class="section lz-intro" aria-labelledby="l-intro">
+<section class="section lz-intro section--tint" aria-labelledby="l-intro">
   <div class="container">
     <p class="lz-intro__lead reveal">Every journey is different. From tailor-made holidays to group getaways and social experiences, we bring together the places, people and details that make travelling in Thailand truly memorable.</p>
     <div class="lz-intro__cta reveal"><a class="btn btn--outline" href="#fit">Explore Our Experiences</a></div>
     <div class="lz-intro__row">
-      <div class="stack reveal"><h2 class="h-1" id="l-intro">More Than a Holiday. An Experience to Remember.</h2><p>Discover Thailand through thoughtfully planned journeys, shared adventures and experiences designed around the way you want to travel.</p><a class="btn btn--primary" href="contact?service=Leisure#enquiry">Start Your Journey</a></div>
-      <div class="stack reveal"><h2 class="h-2" id="l-story">Your Thailand Story Starts Here.</h2><p>From private escapes to exciting group journeys, we take care of the planning so you can focus on enjoying every moment.</p></div>
+      <div class="stack lz-panel lz-panel--blue reveal"><h2 class="h-1" id="l-intro">More Than a Holiday. An Experience to Remember.</h2><p>Discover Thailand through thoughtfully planned journeys, shared adventures and experiences designed around the way you want to travel.</p><a class="btn btn--white" href="contact?service=Leisure#enquiry">Start Your Journey</a></div>
+      <div class="stack lz-panel reveal"><h2 class="h-2" id="l-story">Your Thailand Story Starts Here.</h2><p>From private escapes to exciting group journeys, we take care of the planning so you can focus on enjoying every moment.</p></div>
     </div>
     <ul class="lz-marquee" aria-label="Leisure"><li>Travel That Feels Like You.</li><li>Every Journey Has Its Own Story.</li><li>Thailand, Made Personal.</li></ul>
   </div>
