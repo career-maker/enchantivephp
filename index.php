@@ -56,7 +56,7 @@ require __DIR__ . '/includes/header.php';
     <div class="about-band__body reveal">
       <p>Built on strong relationships across Thailand’s hospitality and travel landscape, we provide our partners with reliable solutions, responsive support, and consistently high service standards—ensuring every journey and event is delivered seamlessly from planning to completion.</p>
       <p>Our strength lies in the details. From exclusive venue access and curated experiences for corporates, to theme-based meetings and events, supplier selection, itinerary design, logistics, operations, and on-ground coordination, our experienced team manages every element with precision and professionalism.</p>
-      <a class="btn btn--glass" href="about">Read More</a>
+      <a class="btn btn--glass" href="about">Read More<span class="sr-only"> about Enchantive Asia</span></a>
     </div>
   </div>
 </section>
@@ -76,7 +76,7 @@ require __DIR__ . '/includes/header.php';
       <h2 id="mice-title">Meetings, Incentives,<br>Conferences &amp; Exhibitions</h2>
       <p>What sets us apart is the strength of our people, our ground team, and the local connections we have built across thailand. with over 15 years of industry experience within our team and more than 20 years of dmc expertise among our stakeholders, mice is not simply a service we offer—it is what we know best. our deep local network, combined with strong partnerships with international hotel chains, trusted vendors, venues, and service providers, allows us to deliver truly end-to-end mice programs with precision and consistency. from groups of 10 to 1,000 guests, we manage every element of the experience—from venue and hotel sourcing, transportation and logistics to event production, décor, vip handling, customised experiences, and tailored culinary requirements.</p>
       <p>We work closely with our partners to accommodate diverse cuisine preferences and dietary requirements, going the extra mile to ensure that every guest receives the dining experience they expect, regardless of the size or complexity of the program. whether it is a minor adjustment or a complete transformation of an event concept, our team has the knowledge, resources, and flexibility to make it happen. with enchantive asia, you are not simply appointing an event partner—you<br>are putting your program in the hands of a team that knows thailand, understands mice, and takes ownership of every detail from the first conversation to the final guest departure. “for you, it’s a major event. for us, it’s our everyday standard.”</p>
-      <a class="btn btn--outline" href="mice">Read More</a>
+      <a class="btn btn--outline" href="mice">Read More<span class="sr-only"> about our MICE services</span></a>
     </div>
     <div class="mice-gallery reveal">
       <figure><img src="assets/images/temp/mice-gala-temp.webp" alt="Guests at a formal gala dinner" width="1400" height="933" loading="lazy"></figure>

@@ -25,8 +25,8 @@
 .locations { display: grid; gap: clamp(1.75rem, 4vw, 4.5rem); @include m.up(lg) { grid-template-columns: 1fr 1fr; align-items: start; }
   &__list { border-top: 1px solid v.$color-line; }
   &__btn { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 1.375rem 0; text-align: left; font-size: clamp(1.375rem, 1.9vw, 2.25rem); font-weight: 300; border-bottom: 1px solid v.$color-line; transition: color v.$t-fast;
-    &[aria-selected='true'] { color: v.$color-blue; font-weight: 400; border-bottom-color: v.$color-blue; } &:hover { color: v.$color-blue; }
-    .icon-btn { opacity: 0; transition: opacity v.$t-fast; } &[aria-selected='true'] .icon-btn { opacity: 1; } }
+    &:is([aria-selected='true'], [aria-current='true']) { color: v.$color-blue; font-weight: 400; border-bottom-color: v.$color-blue; } &:hover { color: v.$color-blue; }
+    .icon-btn { opacity: 0; transition: opacity v.$t-fast; } &:is([aria-selected='true'], [aria-current='true']) .icon-btn { opacity: 1; } }
   &__photo { border-radius: v.$radius-md; overflow: hidden; aspect-ratio: 4 / 3.1; img { width: 100%; height: 100%; object-fit: cover; } } }
 .cta { position: relative; isolation: isolate; text-align: center; color: v.$color-white; padding-block: clamp(3.5rem, 7vw, 6.5rem); overflow: hidden;
   &__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
@@ -144,10 +144,10 @@
 // ---- Iconic Locations: smooth hover transitions ----
 .locations__btn { position: relative; border-bottom-color: v.$color-line; transition: color 0.5s v.$ease, padding-left 0.55s v.$ease, -webkit-text-stroke-color 0.5s v.$ease; -webkit-text-stroke: 0.45px transparent;
   &::after { content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 1px; background: v.$color-blue; transform: scaleX(0); transform-origin: left; transition: transform 0.7s v.$ease; }
-  &[aria-selected='true'], &:hover, &:focus-visible { color: v.$color-blue; -webkit-text-stroke-color: currentColor; padding-left: 0.6rem; border-bottom-color: v.$color-line; font-weight: 300; }
-  &[aria-selected='true']::after { transform: scaleX(1); }
+  &:is([aria-selected='true'], [aria-current='true']), &:hover, &:focus-visible { color: v.$color-blue; -webkit-text-stroke-color: currentColor; padding-left: 0.6rem; border-bottom-color: v.$color-line; font-weight: 300; }
+  &:is([aria-selected='true'], [aria-current='true'])::after { transform: scaleX(1); }
   .icon-btn { opacity: 0; transform: translateX(-1rem) scale(0.6); transition: opacity 0.45s ease, transform 0.6s v.$ease; }
-  &[aria-selected='true'] .icon-btn { opacity: 1; transform: none; } }
+  &:is([aria-selected='true'], [aria-current='true']) .icon-btn { opacity: 1; transform: none; } }
 .locations__photo { position: relative; overflow: hidden; background: v.$color-tint;
   img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
   .is-current { transform: scale(1); }

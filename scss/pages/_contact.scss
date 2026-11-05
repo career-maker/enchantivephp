@@ -92,7 +92,7 @@
 // Say-hello: open, light layout (overrides the earlier gradient tile)
 .say-hello { background: none; color: v.$color-ink; padding: clamp(0.5rem, 1.5vw, 1rem) 0 0; margin-top: clamp(2rem, 4vw, 3rem); border-radius: 0; overflow: visible; gap: 0.5rem;
   &::after { display: none; }
-  > p:first-child { display: flex; align-items: center; gap: 1rem; font-size: 0.8125rem; letter-spacing: 0.2em; text-transform: uppercase; color: #a8793a; &::before, &::after { content: ''; width: 2.5rem; height: 1px; background: #a8793a; } }
+  > p:first-child { display: flex; align-items: center; gap: 1rem; font-size: 0.8125rem; letter-spacing: 0.2em; text-transform: uppercase; color: #946a2c; &::before, &::after { content: ''; width: 2.5rem; height: 1px; background: #a8793a; } }
   > h2 { color: v.$color-ink; em { color: #a8793a; } }
   > h2 + p { color: v.$color-muted; }
   .quick-links { gap: clamp(1rem, 3vw, 2.5rem); margin-top: 1.25rem; flex-wrap: wrap; align-items: center; li + li { padding-left: clamp(1rem, 3vw, 2.5rem); border-left: 1px solid v.$color-line; } } }
