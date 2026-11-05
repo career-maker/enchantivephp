@@ -9,43 +9,43 @@ require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/dest-pattaya-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
-  <div class="container hero__inner">
+  <div class="container hero__inner hd-display">
     <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li><a href="destinations">Destinations</a></li><li aria-current="page">Pattaya</li></ol></nav>
-    <h1 class="h-display hero__title">Pattaya</h1>
+    <h1>Pattaya</h1>
   </div>
 </section>
 <section class="section" aria-labelledby="d-title">
   <div class="container split">
-    <div class="stack reveal"><p class="eyebrow">03 / 05</p><h2 class="h-1" id="d-title">The Coast, Built for Groups.</h2><p>With its beachfront resorts, island excursions and wide choice of event venues, Pattaya offers the space and variety to bring people together. It is a compelling choice for corporate incentives, large group programmes, family celebrations and coastal getaways within reach of Bangkok.</p></div>
+    <div class="stack reveal has-eyebrow hd-1"><p>03 / 05</p><h2 id="d-title">The Coast, Built for Groups.</h2><p>With its beachfront resorts, island excursions and wide choice of event venues, Pattaya offers the space and variety to bring people together. It is a compelling choice for corporate incentives, large group programmes, family celebrations and coastal getaways within reach of Bangkok.</p></div>
     <div class="photo-mosaic reveal"><figure class="pm-tile"><img src="assets/images/temp/dest-pattaya-temp.webp" alt="Pattaya, Thailand" width="1200" height="800" loading="lazy"></figure><figure class="pm-tile"><img src="assets/images/temp/dest-pattaya-2-temp.webp" alt="Pattaya, Thailand" width="1200" height="800" loading="lazy"></figure><figure class="pm-tile"><img src="assets/images/temp/dest-pattaya-3-temp.webp" alt="Pattaya, Thailand" width="1200" height="800" loading="lazy"></figure><figure class="pm-tile"><img src="assets/images/temp/dest-pattaya-4-temp.webp" alt="Pattaya, Thailand" width="1200" height="800" loading="lazy"></figure></div>
   </div>
 </section>
 <section class="section section--tint" aria-labelledby="d-adv">
-  <div class="container split split--top">
-    <h2 class="h-2 reveal" id="d-adv">The Enchantive Advantage</h2>
+  <div class="container split split--top hd-2">
+    <div class="reveal"><h2 id="d-adv">The Enchantive Advantage</h2></div>
     <div class="stack reveal"><p>When you're bringing a large group together, the details matter. We coordinate accommodation, transport, event production and supplier schedules to help the entire programme run smoothly, whether the occasion calls for a conference, an incentive trip or a celebration by the sea.</p></div>
   </div>
 </section>
 <section class="section" aria-labelledby="d-exp">
   <div class="container">
-    <div class="section-heading section-heading--center"><h2 class="h-1" id="d-exp">Make the Coast Your Own</h2></div>
+    <div class="section-heading section-heading--center hd-1"><h2 id="d-exp">Make the Coast Your Own</h2></div>
     <div class="feature-grid">
-      <article class="feature-card"><h3 class="feature-card__title">Meetings, Incentives &amp; Events</h3><p>From resort-based conferences and awards dinners to beachside celebrations and themed evenings, we develop programmes around your goals and the scale of your group.</p></article>
-      <article class="feature-card"><h3 class="feature-card__title">Team Experiences</h3><p>Bring colleagues together through boat excursions, island days and thoughtfully designed group activities that encourage connection and shared achievement.</p></article>
-      <article class="feature-card"><h3 class="feature-card__title">Leisure &amp; Island Escapes</h3><p>Balance the energy of the city with coastal experiences, island hopping, gardens and cultural attractions selected to suit your guests.</p></article>
-      <article class="feature-card"><h3 class="feature-card__title">Private Celebrations &amp; VIP Stays</h3><p>From seaside parties and family gatherings to private boat charters and villa stays, we help create more personal ways to enjoy the coast.</p></article>
+      <article class="feature-card"><h3>Meetings, Incentives &amp; Events</h3><p>From resort-based conferences and awards dinners to beachside celebrations and themed evenings, we develop programmes around your goals and the scale of your group.</p></article>
+      <article class="feature-card"><h3>Team Experiences</h3><p>Bring colleagues together through boat excursions, island days and thoughtfully designed group activities that encourage connection and shared achievement.</p></article>
+      <article class="feature-card"><h3>Leisure &amp; Island Escapes</h3><p>Balance the energy of the city with coastal experiences, island hopping, gardens and cultural attractions selected to suit your guests.</p></article>
+      <article class="feature-card"><h3>Private Celebrations &amp; VIP Stays</h3><p>From seaside parties and family gatherings to private boat charters and villa stays, we help create more personal ways to enjoy the coast.</p></article>
     </div>
   </div>
 </section>
 <section class="section section--tint" aria-labelledby="d-more">
-  <div class="container split split--top">
-    <h2 class="h-2 reveal" id="d-more">Every Detail, Coordinated</h2>
-    <div class="stack reveal"><p>We plan road transfers, vehicle requirements, arrival windows and group movements in advance. For boat trips and outdoor events, we also consider weather conditions and agree on suitable alternatives where needed.</p><p class="lead">Share your dates, guest numbers and vision. We'll help you make the most of the coast.</p></div>
+  <div class="container split split--top hd-2">
+    <div class="reveal"><h2 id="d-more">Every Detail, Coordinated</h2></div>
+    <div class="stack reveal lead-last"><p>We plan road transfers, vehicle requirements, arrival windows and group movements in advance. For boat trips and outdoor events, we also consider weather conditions and agree on suitable alternatives where needed.</p><p>Share your dates, guest numbers and vision. We'll help you make the most of the coast.</p></div>
   </div>
 </section>
 <section class="section" aria-labelledby="d-other">
   <div class="container">
-    <div class="section-heading"><h2 class="h-2" id="d-other">More Destinations</h2></div>
+    <div class="section-heading hd-2"><h2 id="d-other">More Destinations</h2></div>
     <div class="topic-grid topic-grid--4">
       <a class="topic-card" href="destination-bangkok"><span class="topic-card__img"><img src="assets/images/temp/dest-bangkok-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Bangkok</span></a>
       <a class="topic-card" href="destination-chiang-mai"><span class="topic-card__img"><img src="assets/images/temp/dest-chiang-mai-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Chiang Mai</span></a>

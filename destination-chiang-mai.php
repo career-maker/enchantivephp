@@ -9,43 +9,43 @@ require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/dest-chiang-mai-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
-  <div class="container hero__inner">
+  <div class="container hero__inner hd-display">
     <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li><a href="destinations">Destinations</a></li><li aria-current="page">Chiang Mai</li></ol></nav>
-    <h1 class="h-display hero__title">Chiang Mai</h1>
+    <h1>Chiang Mai</h1>
   </div>
 </section>
 <section class="section" aria-labelledby="d-title">
   <div class="container split">
-    <div class="stack reveal"><p class="eyebrow">02 / 05</p><h2 class="h-1" id="d-title">Mountains, Craft &amp; Slow Mornings.</h2><p>In northern Thailand, life takes on a different rhythm. Chiang Mai invites guests to look beyond the usual itinerary, with mountain scenery, Lanna heritage, local craftsmanship and a growing appreciation for wellness and meaningful travel.</p></div>
+    <div class="stack reveal has-eyebrow hd-1"><p>02 / 05</p><h2 id="d-title">Mountains, Craft &amp; Slow Mornings.</h2><p>In northern Thailand, life takes on a different rhythm. Chiang Mai invites guests to look beyond the usual itinerary, with mountain scenery, Lanna heritage, local craftsmanship and a growing appreciation for wellness and meaningful travel.</p></div>
     <div class="photo-mosaic reveal"><figure class="pm-tile"><img src="assets/images/temp/dest-chiang-mai-temp.webp" alt="Chiang Mai, Thailand" width="1200" height="800" loading="lazy"></figure><figure class="pm-tile"><img src="assets/images/temp/dest-chiang-mai-2-temp.webp" alt="Chiang Mai, Thailand" width="1200" height="800" loading="lazy"></figure><figure class="pm-tile"><img src="assets/images/temp/dest-chiang-mai-3-temp.webp" alt="Chiang Mai, Thailand" width="1200" height="800" loading="lazy"></figure><figure class="pm-tile"><img src="assets/images/temp/dest-chiang-mai-4-temp.webp" alt="Chiang Mai, Thailand" width="1200" height="800" loading="lazy"></figure></div>
   </div>
 </section>
 <section class="section section--tint" aria-labelledby="d-adv">
-  <div class="container split split--top">
-    <h2 class="h-2 reveal" id="d-adv">The Enchantive Advantage</h2>
+  <div class="container split split--top hd-2">
+    <div class="reveal"><h2 id="d-adv">The Enchantive Advantage</h2></div>
     <div class="stack reveal"><p>The character of Chiang Mai lies in its people as much as its landscapes. We bring guests closer to local culture through carefully selected guides, artisans, hosts and experiences that offer a more personal connection to the destination.</p></div>
   </div>
 </section>
 <section class="section" aria-labelledby="d-exp">
   <div class="container">
-    <div class="section-heading section-heading--center"><h2 class="h-1" id="d-exp">Discover the North</h2></div>
+    <div class="section-heading section-heading--center hd-1"><h2 id="d-exp">Discover the North</h2></div>
     <div class="feature-grid">
-      <article class="feature-card"><h3 class="feature-card__title">Culture &amp; Private Exploration</h3><p>Explore the old city's temples, discover local crafts, join hands-on workshops or venture into the surrounding countryside with knowledgeable local guides.</p></article>
-      <article class="feature-card"><h3 class="feature-card__title">Incentives &amp; Corporate Gatherings</h3><p>Bring teams together through cultural experiences, thoughtfully designed group activities, distinctive dining settings and celebrations framed by the beauty of northern Thailand.</p></article>
-      <article class="feature-card"><h3 class="feature-card__title">Wellness &amp; Nature</h3><p>Create space to slow down with wellness-led stays, mountain escapes and carefully selected wildlife experiences that prioritise responsible practices.</p></article>
-      <article class="feature-card"><h3 class="feature-card__title">Weddings &amp; Celebrations</h3><p>From garden settings to mountain-view occasions, Chiang Mai offers a beautiful backdrop for celebrations shaped around your vision and, where appropriate, local traditions.</p></article>
+      <article class="feature-card"><h3>Culture &amp; Private Exploration</h3><p>Explore the old city's temples, discover local crafts, join hands-on workshops or venture into the surrounding countryside with knowledgeable local guides.</p></article>
+      <article class="feature-card"><h3>Incentives &amp; Corporate Gatherings</h3><p>Bring teams together through cultural experiences, thoughtfully designed group activities, distinctive dining settings and celebrations framed by the beauty of northern Thailand.</p></article>
+      <article class="feature-card"><h3>Wellness &amp; Nature</h3><p>Create space to slow down with wellness-led stays, mountain escapes and carefully selected wildlife experiences that prioritise responsible practices.</p></article>
+      <article class="feature-card"><h3>Weddings &amp; Celebrations</h3><p>From garden settings to mountain-view occasions, Chiang Mai offers a beautiful backdrop for celebrations shaped around your vision and, where appropriate, local traditions.</p></article>
     </div>
   </div>
 </section>
 <section class="section section--tint" aria-labelledby="d-more">
-  <div class="container split split--top">
-    <h2 class="h-2 reveal" id="d-more">A Different Pace, Thoughtfully Planned</h2>
-    <div class="stack reveal"><p>We coordinate flights or onward transfers, airport pickups and the timing of each day's activities. For journeys into the hills and countryside, we allow for realistic travel times so guests can enjoy the experience without feeling rushed.</p><p class="lead">Tell us the pace your guests prefer. We'll find the northern Thailand that suits them.</p></div>
+  <div class="container split split--top hd-2">
+    <div class="reveal"><h2 id="d-more">A Different Pace, Thoughtfully Planned</h2></div>
+    <div class="stack reveal lead-last"><p>We coordinate flights or onward transfers, airport pickups and the timing of each day's activities. For journeys into the hills and countryside, we allow for realistic travel times so guests can enjoy the experience without feeling rushed.</p><p>Tell us the pace your guests prefer. We'll find the northern Thailand that suits them.</p></div>
   </div>
 </section>
 <section class="section" aria-labelledby="d-other">
   <div class="container">
-    <div class="section-heading"><h2 class="h-2" id="d-other">More Destinations</h2></div>
+    <div class="section-heading hd-2"><h2 id="d-other">More Destinations</h2></div>
     <div class="topic-grid topic-grid--4">
       <a class="topic-card" href="destination-bangkok"><span class="topic-card__img"><img src="assets/images/temp/dest-bangkok-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Bangkok</span></a>
       <a class="topic-card" href="destination-pattaya"><span class="topic-card__img"><img src="assets/images/temp/dest-pattaya-temp.webp" alt="" width="1400" height="933" loading="lazy"></span><span class="topic-card__title">Pattaya</span></a>

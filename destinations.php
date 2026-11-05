@@ -9,14 +9,14 @@ require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" style="object-position: 50% 88%" src="assets/images/temp/destinations-hero-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
-  <div class="container hero__inner">
+  <div class="container hero__inner hd-display">
     <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li aria-current="page">Destinations</li></ol></nav>
-    <h1 class="h-display hero__title">Destinations</h1>
+    <h1>Destinations</h1>
   </div>
 </section>
 <section class="section dh-intro" aria-labelledby="dest-hub-title">
-  <div class="container dh-intro__grid">
-    <h2 class="h-1 reveal" id="dest-hub-title">Five Destinations. One Partner Who Knows Thailand.</h2>
+  <div class="container dh-intro__grid hd-1">
+    <div class="reveal"><h2 id="dest-hub-title">Five Destinations. One Partner Who Knows Thailand.</h2></div>
     <div class="stack reveal"><p>From Bangkok's vibrant skyline to the mountains of the north, every destination in Thailand has its own character, and every journey deserves a different approach.</p><p>At Enchantive Asia, we bring together local knowledge, trusted relationships and thoughtful planning to create experiences that feel right for each destination and every guest. Whether you're organising a corporate programme for 1,000 guests, planning a private escape or creating a journey that combines business with leisure, our team takes care of the details from the first conversation to the final goodbye.</p></div>
   </div>
 </section>
@@ -29,14 +29,14 @@ require __DIR__ . '/includes/header.php';
 </section>
 <section class="section dh-journey" aria-labelledby="dest-journey-title">
   <div class="container">
-    <div class="dh-journey__head reveal"><h2 class="h-1" id="dest-journey-title">One Journey. Many Possibilities.</h2><div class="stack"><p>Thailand is best experienced when its destinations complement one another. Begin with Bangkok's energy, slow down with a coastal retreat in Hua Hin, or discover the country's heritage in Ayutthaya. For guests seeking culture, nature and a different pace, Chiang Mai offers another side of Thailand.</p><p>We bring these destinations together through carefully planned itineraries, seamless transfers and experiences that flow naturally from one place to the next.</p></div></div>
+    <div class="dh-journey__head reveal hd-1"><h2 id="dest-journey-title">One Journey. Many Possibilities.</h2><div class="stack"><p>Thailand is best experienced when its destinations complement one another. Begin with Bangkok's energy, slow down with a coastal retreat in Hua Hin, or discover the country's heritage in Ayutthaya. For guests seeking culture, nature and a different pace, Chiang Mai offers another side of Thailand.</p><p>We bring these destinations together through carefully planned itineraries, seamless transfers and experiences that flow naturally from one place to the next.</p></div></div>
   </div>
 </section>
 <section class="dh-plan" aria-labelledby="dest-plan-title">
   <img src="assets/images/temp/dest-hua-hin-temp.webp" alt="" width="1600" height="1067" loading="lazy">
-  <div class="container reveal">
-    <p class="eyebrow eyebrow--light">LET'S PLAN YOUR THAILAND</p>
-    <h2 class="h-1" id="dest-plan-title">One Country. Countless Ways to Experience It.</h2>
+  <div class="container reveal has-eyebrow has-eyebrow--light hd-1">
+    <p>LET'S PLAN YOUR THAILAND</p>
+    <h2 id="dest-plan-title">One Country. Countless Ways to Experience It.</h2>
     <p>Every group has a different reason to travel, and every destination has something different to offer. Whether you know exactly what you want or need a little inspiration, Enchantive Asia brings together the local knowledge, trusted partnerships and attention to detail to help make it happen.</p><p>Tell us what you're planning. We'll take it from there.</p>
   </div>
 </section>

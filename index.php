@@ -13,9 +13,9 @@ require __DIR__ . '/includes/header.php';
     <img class="hero__slide" src="assets/images/villa-infinity-lounge.webp" alt="Luxury villa lounge overlooking the sea" width="1200" height="801" loading="lazy">
     <img class="hero__slide" src="assets/images/phi-phi-longtail-boats.webp" alt="Longtail boats in a turquoise Phi Phi lagoon" width="1200" height="800" loading="lazy">
   </div>
-  <div class="container hero__inner">
-    <h1 class="h-display hero__title">Exceptional Journeys, Our Expertise, Extraordinary Experiences.</h1>
-    <p class="hero__sub">Tailor-made travel solutions and ground-handling services for global partners.</p>
+  <div class="container hero__inner hd-display">
+    <h1>Exceptional Journeys, Our Expertise, Extraordinary Experiences.</h1>
+    <p>Tailor-made travel solutions and ground-handling services for global partners.</p>
     <div class="hero__actions"><a class="btn btn--glass" href="contact">Partner With Us</a></div>
     <div class="hero__dots" role="group" aria-label="Hero slides">
       <button type="button" aria-label="Slide 1" aria-current="true"></button>
@@ -25,7 +25,7 @@ require __DIR__ . '/includes/header.php';
     </div>
   </div>
   <div class="hero__rail">
-    <p class="hero__vertical"><a href="celebrations-events">Celebrations &amp; Experience</a> <span aria-hidden="true">/</span> <a href="leisure">Leisure</a> <span aria-hidden="true">/</span> <a href="luxe-experiences">Lux Experience</a></p>
+    <div class="hero__vertical"><a href="celebrations-events">Celebrations &amp; Experience</a> <span aria-hidden="true">/</span> <a href="leisure">Leisure</a> <span aria-hidden="true">/</span> <a href="luxe-experiences">Lux Experience</a></div>
     <div class="hero__contacts">
       <a href="tel:+6620282867" aria-label="Call +66 2028 2867"><svg aria-hidden="true"><use href="#i-phone"/></svg></a>
       <a href="mailto:info@enchantiveasia.com" aria-label="Email info@enchantiveasia.com"><svg aria-hidden="true"><use href="#i-mail"/></svg></a>
@@ -39,22 +39,22 @@ require __DIR__ . '/includes/header.php';
     <span class="ticker__item">5000+ Happy Customers</span><span class="ticker__item">500+ Global Partners</span><span class="ticker__item">300+ Venues</span>
     <span class="ticker__item">5000+ Happy Customers</span><span class="ticker__item">500+ Global Partners</span><span class="ticker__item">300+ Venues</span>
   </div>
-  <p class="sr-only">5000+ happy customers, 500+ global partners, 300+ venues.</p>
+  <div class="sr-only">5000+ happy customers, 500+ global partners, 300+ venues.</div>
 </div>
 
 <section class="about-band" aria-labelledby="intro-title">
   <img class="about-band__bg" src="assets/images/about-team-fleet.webp" alt="The Enchantive Asia team standing in front of a fleet of coaches and vans at night" width="2000" height="1116" loading="lazy">
   <div class="container about-band__grid">
-    <div class="about-band__head reveal">
-      <p class="about-band__eyebrow">Destination Management &middot; Thailand</p>
-      <h2 class="h-1" id="intro-title">Your Destination<br>Management Partner<br>For <span class="about-band__accent">Thailand</span></h2>
+    <div class="about-band__head reveal hd-1">
+      <p>Destination Management &middot; Thailand</p>
+      <h2 id="intro-title">Your Destination<br>Management Partner<br>For <span>Thailand</span></h2>
       <div class="about-band__stat">
         <span class="about-band__num" aria-hidden="true">15</span>
         <p><span class="sr-only">15 </span>Years of Experience<br>In Travel &amp; Hospitality</p>
       </div>
     </div>
     <div class="about-band__body reveal">
-      <p class="about-band__lead">Built on strong relationships across Thailand’s hospitality and travel landscape, we provide our partners with reliable solutions, responsive support, and consistently high service standards—ensuring every journey and event is delivered seamlessly from planning to completion.</p>
+      <p>Built on strong relationships across Thailand’s hospitality and travel landscape, we provide our partners with reliable solutions, responsive support, and consistently high service standards—ensuring every journey and event is delivered seamlessly from planning to completion.</p>
       <p>Our strength lies in the details. From exclusive venue access and curated experiences for corporates, to theme-based meetings and events, supplier selection, itinerary design, logistics, operations, and on-ground coordination, our experienced team manages every element with precision and professionalism.</p>
       <a class="btn btn--glass" href="about">Read More</a>
     </div>
@@ -62,8 +62,8 @@ require __DIR__ . '/includes/header.php';
 </section>
 
 <section class="section section--tint why" aria-labelledby="why-title">
-  <div class="container">
-    <h2 class="h-1" id="why-title">Why Leading Travel Brands Choose Us In Thailand</h2>
+  <div class="container hd-1">
+    <h2 id="why-title">Why Leading Travel Brands Choose Us In Thailand</h2>
     <div class="prose stack reveal">
       <p>With years of experience in thailand, we understand the destination, the people, and the details that make a difference. over the years, we have built enduring relationships with trusted partners across thailand’s hospitality and travel landscape, while earning the confidence of clients who continue to return to us for their programs and events. our partners value us for the strength of our local connections, careful planning, reliable operations, and consistent involvement from the first request to the final goodbye. these long-standing relationships are a reflection of the trust we have built through years of delivering with professionalism, responsiveness, and consistency. we know thailand. we know the business. and, year after year, our clients and partners continue to trust us to deliver.</p>
     </div>
@@ -72,8 +72,8 @@ require __DIR__ . '/includes/header.php';
 
 <section class="section mice-section" aria-labelledby="mice-title">
   <div class="container mice-split">
-    <div class="stack reveal">
-      <h2 class="h-1" id="mice-title">Meetings, Incentives,<br>Conferences &amp; Exhibitions</h2>
+    <div class="stack reveal hd-1">
+      <h2 id="mice-title">Meetings, Incentives,<br>Conferences &amp; Exhibitions</h2>
       <p>What sets us apart is the strength of our people, our ground team, and the local connections we have built across thailand. with over 15 years of industry experience within our team and more than 20 years of dmc expertise among our stakeholders, mice is not simply a service we offer—it is what we know best. our deep local network, combined with strong partnerships with international hotel chains, trusted vendors, venues, and service providers, allows us to deliver truly end-to-end mice programs with precision and consistency. from groups of 10 to 1,000 guests, we manage every element of the experience—from venue and hotel sourcing, transportation and logistics to event production, décor, vip handling, customised experiences, and tailored culinary requirements.</p>
       <p>We work closely with our partners to accommodate diverse cuisine preferences and dietary requirements, going the extra mile to ensure that every guest receives the dining experience they expect, regardless of the size or complexity of the program. whether it is a minor adjustment or a complete transformation of an event concept, our team has the knowledge, resources, and flexibility to make it happen. with enchantive asia, you are not simply appointing an event partner—you<br>are putting your program in the hands of a team that knows thailand, understands mice, and takes ownership of every detail from the first conversation to the final guest departure. “for you, it’s a major event. for us, it’s our everyday standard.”</p>
       <a class="btn btn--outline" href="mice">Read More</a>
@@ -88,8 +88,8 @@ require __DIR__ . '/includes/header.php';
 
 <section class="section more" aria-labelledby="more-title">
   <div class="container more__grid">
-    <div class="more__text reveal">
-      <h2 class="h-1" id="more-title">More than a Destination an<br>Experience</h2>
+    <div class="more__text reveal hd-1">
+      <h2 id="more-title">More than a Destination an<br>Experience</h2>
       <p>Discover thailand through unforgettable journeys, authentic local experiences, and thoughtfully curated travel experiences designed to inspire every traveller. experience the beauty, culture, and charm of asia through thoughtfully crafted journeys.</p>
     </div>
     <div class="carousel" data-carousel>
@@ -110,8 +110,8 @@ require __DIR__ . '/includes/header.php';
 
 <section class="section" id="destinations" aria-labelledby="dest-title">
   <div class="container">
-    <div class="section-heading">
-      <h2 class="h-1" id="dest-title">Discover Thailand’s<br>Iconic Locations</h2>
+    <div class="section-heading hd-1">
+      <h2 id="dest-title">Discover Thailand’s<br>Iconic Locations</h2>
       <div class="section-heading__aside">
         <p>We are professionals in planning any corporate event, including product launches! Just let us know the requirements, and our expert will curate and design the workflow to make the event wonderful.</p>
         <a class="btn btn--outline" href="destinations">Discover More</a>
@@ -133,37 +133,37 @@ require __DIR__ . '/includes/header.php';
 
 <section class="section hear" aria-labelledby="hear-title">
   <div class="container">
-    <div class="section-heading section-heading--center">
-      <h2 class="h-1" id="hear-title">Hear It From Our Partners</h2>
+    <div class="section-heading section-heading--center hd-1">
+      <h2 id="hear-title">Hear It From Our Partners</h2>
     </div>
     <div class="quote-marquee">
       <div class="quote-marquee__track">
         <div class="quote-grid">
       <figure class="quote-card"><svg class="quote-card__mark" aria-hidden="true"><use href="#i-quote"/></svg>
-        <blockquote><p class="quote-card__title">An unforgettable journey! Professional, friendly, and reliable.</p><p class="quote-card__text">Enchantive Asia arranged everything perfectly — from luxury stays to hidden local experiences. Thailand has never felt so magical. The multilingual guide made exploring Bangkok’s culture and history so much more meaningful. Highly recommended!</p></blockquote>
+        <blockquote><p>An unforgettable journey! Professional, friendly, and reliable.</p><p>Enchantive Asia arranged everything perfectly — from luxury stays to hidden local experiences. Thailand has never felt so magical. The multilingual guide made exploring Bangkok’s culture and history so much more meaningful. Highly recommended!</p></blockquote>
         <figcaption class="quote-card__who"><img src="assets/images/guest-portrait-woman.webp" alt="" width="52" height="52" loading="lazy"><span><strong>Sophia</strong><span>Thailand</span></span></figcaption></figure>
       <figure class="quote-card"><svg class="quote-card__mark" aria-hidden="true"><use href="#i-quote"/></svg>
-        <blockquote><p class="quote-card__title">Our incentive trip ran like clockwork, start to finish.</p><p class="quote-card__text">Three hotels, two hundred guests and not a single missed transfer. The team handled every detail so calmly that we could simply enjoy the programme with our people.</p></blockquote>
+        <blockquote><p>Our incentive trip ran like clockwork, start to finish.</p><p>Three hotels, two hundred guests and not a single missed transfer. The team handled every detail so calmly that we could simply enjoy the programme with our people.</p></blockquote>
         <figcaption class="quote-card__who"><img src="assets/images/guest-portrait-woman.webp" alt="" width="52" height="52" loading="lazy"><span><strong>Mei Lin</strong><span>Hong Kong</span></span></figcaption></figure>
       <figure class="quote-card"><svg class="quote-card__mark" aria-hidden="true"><use href="#i-quote"/></svg>
-        <blockquote><p class="quote-card__title">Our wedding in Phuket was a dream come true!</p><p class="quote-card__text">Enchantive Asia handled every detail with elegance and care. Truly the best decision we made. Highly recommended!</p></blockquote>
+        <blockquote><p>Our wedding in Phuket was a dream come true!</p><p>Enchantive Asia handled every detail with elegance and care. Truly the best decision we made. Highly recommended!</p></blockquote>
         <figcaption class="quote-card__who"><img src="assets/images/guest-portrait-man.webp" alt="" width="52" height="52" loading="lazy"><span><strong>Linh &amp; David</strong><span>Singapore</span></span></figcaption></figure>
       <figure class="quote-card"><svg class="quote-card__mark" aria-hidden="true"><use href="#i-quote"/></svg>
-        <blockquote><p class="quote-card__title">Local knowledge you simply cannot find online.</p><p class="quote-card__text">From a private villa in Koh Samui to a quiet table in Bangkok, every recommendation was spot on. It felt like travelling with a friend who knows every corner of Thailand.</p></blockquote>
+        <blockquote><p>Local knowledge you simply cannot find online.</p><p>From a private villa in Koh Samui to a quiet table in Bangkok, every recommendation was spot on. It felt like travelling with a friend who knows every corner of Thailand.</p></blockquote>
         <figcaption class="quote-card__who"><img src="assets/images/guest-portrait-man.webp" alt="" width="52" height="52" loading="lazy"><span><strong>James</strong><span>Australia</span></span></figcaption></figure>
         </div>
         <div class="quote-grid" aria-hidden="true">
       <figure class="quote-card" aria-hidden="true"><svg class="quote-card__mark" aria-hidden="true"><use href="#i-quote"/></svg>
-        <blockquote><p class="quote-card__title">An unforgettable journey! Professional, friendly, and reliable.</p><p class="quote-card__text">Enchantive Asia arranged everything perfectly — from luxury stays to hidden local experiences. Thailand has never felt so magical. The multilingual guide made exploring Bangkok’s culture and history so much more meaningful. Highly recommended!</p></blockquote>
+        <blockquote><p>An unforgettable journey! Professional, friendly, and reliable.</p><p>Enchantive Asia arranged everything perfectly — from luxury stays to hidden local experiences. Thailand has never felt so magical. The multilingual guide made exploring Bangkok’s culture and history so much more meaningful. Highly recommended!</p></blockquote>
         <figcaption class="quote-card__who"><img src="assets/images/guest-portrait-woman.webp" alt="" width="52" height="52" loading="lazy"><span><strong>Sophia</strong><span>Thailand</span></span></figcaption></figure>
       <figure class="quote-card" aria-hidden="true"><svg class="quote-card__mark" aria-hidden="true"><use href="#i-quote"/></svg>
-        <blockquote><p class="quote-card__title">Our incentive trip ran like clockwork, start to finish.</p><p class="quote-card__text">Three hotels, two hundred guests and not a single missed transfer. The team handled every detail so calmly that we could simply enjoy the programme with our people.</p></blockquote>
+        <blockquote><p>Our incentive trip ran like clockwork, start to finish.</p><p>Three hotels, two hundred guests and not a single missed transfer. The team handled every detail so calmly that we could simply enjoy the programme with our people.</p></blockquote>
         <figcaption class="quote-card__who"><img src="assets/images/guest-portrait-woman.webp" alt="" width="52" height="52" loading="lazy"><span><strong>Mei Lin</strong><span>Hong Kong</span></span></figcaption></figure>
       <figure class="quote-card" aria-hidden="true"><svg class="quote-card__mark" aria-hidden="true"><use href="#i-quote"/></svg>
-        <blockquote><p class="quote-card__title">Our wedding in Phuket was a dream come true!</p><p class="quote-card__text">Enchantive Asia handled every detail with elegance and care. Truly the best decision we made. Highly recommended!</p></blockquote>
+        <blockquote><p>Our wedding in Phuket was a dream come true!</p><p>Enchantive Asia handled every detail with elegance and care. Truly the best decision we made. Highly recommended!</p></blockquote>
         <figcaption class="quote-card__who"><img src="assets/images/guest-portrait-man.webp" alt="" width="52" height="52" loading="lazy"><span><strong>Linh &amp; David</strong><span>Singapore</span></span></figcaption></figure>
       <figure class="quote-card" aria-hidden="true"><svg class="quote-card__mark" aria-hidden="true"><use href="#i-quote"/></svg>
-        <blockquote><p class="quote-card__title">Local knowledge you simply cannot find online.</p><p class="quote-card__text">From a private villa in Koh Samui to a quiet table in Bangkok, every recommendation was spot on. It felt like travelling with a friend who knows every corner of Thailand.</p></blockquote>
+        <blockquote><p>Local knowledge you simply cannot find online.</p><p>From a private villa in Koh Samui to a quiet table in Bangkok, every recommendation was spot on. It felt like travelling with a friend who knows every corner of Thailand.</p></blockquote>
         <figcaption class="quote-card__who"><img src="assets/images/guest-portrait-man.webp" alt="" width="52" height="52" loading="lazy"><span><strong>James</strong><span>Australia</span></span></figcaption></figure>
         </div>
       </div>
@@ -173,8 +173,8 @@ require __DIR__ . '/includes/header.php';
 </section>
 
 <section class="section section--tint partners" aria-labelledby="net-title">
-  <div class="container">
-    <h2 class="h-1 heading-center heading-center--mb" id="net-title">Our Network of Valued Travel Partners</h2>
+  <div class="container hd-1 heading-center heading-center--mb">
+    <h2 id="net-title">Our Network of Valued Travel Partners</h2>
     <div class="logo-marquee">
       <div class="logo-marquee__track">
         <ul class="logo-marquee__set">
@@ -214,8 +214,8 @@ require __DIR__ . '/includes/header.php';
 </section>
 
 <section class="section accreditations" aria-labelledby="acc-title">
-  <div class="container">
-    <h2 class="h-1 heading-center heading-center--mb" id="acc-title">Accreditations</h2>
+  <div class="container hd-1 heading-center heading-center--mb">
+    <h2 id="acc-title">Accreditations</h2>
     <ul class="logo-row logo-row--accred">
       <li><img class="logo--tceb" src="assets/logos/tceb.webp" alt="Thailand Convention &amp; Exhibition Bureau (TCEB)" width="400" height="400" loading="lazy"></li>
       <!-- ACCREDITATION LOGO 2: to replace, overwrite assets/logos/tat.webp with the approved asset (or edit this src/alt) -->
@@ -228,9 +228,9 @@ require __DIR__ . '/includes/header.php';
 
 <section class="cta cta--home" aria-labelledby="home-cta-title">
   <img class="cta__bg" src="assets/images/coastal-road-aerial.webp" alt="" width="1440" height="681" loading="lazy">
-  <p class="cta__ghost" aria-hidden="true">GET IN TOUCH WITH US</p>
-  <div class="container reveal">
-    <h2 class="h-1 cta__title" id="home-cta-title">Experience the enchantive difference:<br>Partner with us to unlock thailand’s premier venues<br>&amp; best-kept secrets.</h2>
+  <div class="cta__ghost" aria-hidden="true">GET IN TOUCH WITH US</div>
+  <div class="container reveal hd-1">
+    <h2 id="home-cta-title">Experience the enchantive difference:<br>Partner with us to unlock thailand’s premier venues<br>&amp; best-kept secrets.</h2>
     <a class="btn btn--white" href="contact">Enquire Now</a>
   </div>
 </section>

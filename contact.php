@@ -9,40 +9,40 @@ require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/coastal-road-aerial.webp" alt="" width="1440" height="681" fetchpriority="high"></div>
-  <div class="container hero__inner">
+  <div class="container hero__inner hd-display">
     <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li aria-current="page">Contact</li></ol></nav>
-    <h1 class="h-display hero__title">Contact Us</h1>
+    <h1>Contact Us</h1>
   </div>
 </section>
 <section class="section contact" aria-labelledby="contact-title">
   <div class="container">
-    <div class="contact__intro stack reveal">
-      <h2 class="h-1" id="contact-title">Tell Us Where You Want to Go</h2>
+    <div class="contact__intro stack reveal hd-1">
+      <h2 id="contact-title">Tell Us Where You Want to Go</h2>
       <p>Have a route in mind, a milestone to mark, or just an idea you want to bounce off someone who actually knows Thailand inside out? Don’t waste hours guessing logistics. Tell us where you want to go, who you’re bringing along, and how you want it to feel—our team will handle the properties, the connections, and every single moving part behind the scenes.</p>
     </div>
     <ul class="contact-cards" aria-label="Contact details">
-      <li class="contact-card"><svg aria-hidden="true"><use href="#i-phone"/></svg><p class="contact-card__title">Phone</p><p><a href="tel:+6620282867">+66 2028 2867</a></p></li>
-      <li class="contact-card"><svg aria-hidden="true"><use href="#i-mail"/></svg><p class="contact-card__title">Email</p><p><a href="mailto:info@enchantiveasia.com">info@enchantiveasia.com</a></p></li>
-      <li class="contact-card"><svg aria-hidden="true"><use href="#i-pin"/></svg><p class="contact-card__title">Address</p><address>RASA TWO, Level 18, 1818, Petchaburi Road, Makkasan, Ratchathewi<br>Bangkok 10400, Thailand</address></li>
+      <li class="contact-card"><svg aria-hidden="true"><use href="#i-phone"/></svg><p>Phone</p><p><a href="tel:+6620282867">+66 2028 2867</a></p></li>
+      <li class="contact-card"><svg aria-hidden="true"><use href="#i-mail"/></svg><p>Email</p><p><a href="mailto:info@enchantiveasia.com">info@enchantiveasia.com</a></p></li>
+      <li class="contact-card"><svg aria-hidden="true"><use href="#i-pin"/></svg><p>Address</p><address>RASA TWO, Level 18, 1818, Petchaburi Road, Makkasan, Ratchathewi<br>Bangkok 10400, Thailand</address></li>
     </ul>
     <div class="say-hello">
-      <p class="say-hello__eyebrow"><span>Get in touch</span></p>
-      <h2 class="say-hello__title"><span class="say-hello__lead">Let’s talk.</span> <em>We’ll shape the journey.</em></h2>
-      <p class="say-hello__sub">Reach us whichever way suits you, or fill in the short form below.</p>
+      <p><span>Get in touch</span></p>
+      <h2><span>Let’s talk.</span> <em>We’ll shape the journey.</em></h2>
+      <p>Reach us whichever way suits you, or fill in the short form below.</p>
       <ul class="quick-links" aria-label="Quick ways to reach us">
         <li><a class="quick-link" href="https://wa.me/6620282867" rel="noopener"><span class="quick-link__icon quick-link__icon--wa"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span class="quick-link__text"><strong>WhatsApp</strong></span></a></li>
         <li><a class="quick-link" href="https://line.me/ti/p/~enchantiveasia" rel="noopener" aria-label="Line"><span class="quick-link__icon quick-link__icon--line"><svg aria-hidden="true"><use href="#i-line"/></svg></span><span class="quick-link__text"><strong>Line</strong></span></a></li>
         <li><a class="quick-link" href="https://www.instagram.com/enchantiveasia/" rel="noopener" aria-label="Instagram"><span class="quick-link__icon quick-link__icon--ig"><svg aria-hidden="true"><use href="#i-instagram"/></svg></span><span class="quick-link__text"><strong>Instagram</strong></span></a></li>
       </ul>
     </div>
-    <p class="divider" aria-hidden="true"><span>Send us an enquiry</span></p>
+    <div class="divider" aria-hidden="true"><span>Send us an enquiry</span></div>
     <div class="enquiry-wrap">
     <figure class="enquiry-photo"><img src="assets/images/temp/luxe-01-andaman-temp.webp" alt="Sailboat at sunset on the Andaman Sea" width="1400" height="933" loading="lazy"></figure>
     <form class="enquiry" id="enquiry" data-validate data-endpoint="contact-submit.php" method="post" action="contact-submit.php" novalidate aria-label="Enquiry form">
       <p class="sr-only" aria-hidden="true"><label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>
       <ol class="stepper" aria-label="Progress"><li data-step-dot><span>1</span>Who</li><li data-step-dot><span>2</span>Contact</li><li data-step-dot><span>3</span>Journey</li></ol>
             <fieldset class="enquiry__group field" data-step>
-        <legend class="h-2">Who are we planning for? <span class="optional">Optional</span></legend>
+        <legend>Who are we planning for? <span class="optional">Optional</span></legend>
         <div class="choices">
           <label class="choice"><input type="radio" name="traveller_type" value="Travel agent"><span class="choice__body"><span class="choice__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-3.5 3-6 7-6s7 2.5 7 6"/></svg></span><span class="choice__title">Travel agent</span><span class="choice__sub">Booking for clients</span></span></label>
           <label class="choice"><input type="radio" name="traveller_type" value="Tour operator"><span class="choice__body"><span class="choice__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="1"/><path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2"/></svg></span><span class="choice__title">Tour operator</span><span class="choice__sub">Building a programme for your brand</span></span></label>
@@ -52,7 +52,7 @@ require __DIR__ . '/includes/header.php';
         <span class="field__error" aria-live="polite"></span>
       </fieldset>
       <fieldset class="enquiry__group" data-step data-title-from="traveller_type">
-        <legend class="h-2"><span data-step-title>Your contact details</span><small class="legend__sub" hidden>Your contact details</small></legend>
+        <legend><span data-step-title>Your contact details</span><small class="legend__sub" hidden>Your contact details</small></legend>
         <div class="form">
           <div class="field"><label for="f-name">Full name <span class="req" aria-hidden="true">*</span></label><input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name"><span class="field__error" id="e-name" aria-live="polite"></span></div>
           <div class="field"><label for="f-email">Email <span class="req" aria-hidden="true">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="e-email"><span class="field__error" id="e-email" aria-live="polite"></span></div>
@@ -63,7 +63,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </fieldset>
       <fieldset class="enquiry__group" data-step>
-        <legend class="h-2">About your journey</legend>
+        <legend>About your journey</legend>
         <div class="form">
           <div class="field form__full"><label for="f-service">Service of interest <span class="req" aria-hidden="true">*</span></label>
             <select id="f-service" name="service" required aria-describedby="e-service"><option value="">Select a service</option><option>Destinations</option><option>MICE</option><option>Celebrations &amp; Experiences</option><option>Luxe Experiences</option><option>Leisure</option><option>Other</option></select><span class="field__error" id="e-service" aria-live="polite"></span></div>

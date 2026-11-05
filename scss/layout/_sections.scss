@@ -2,8 +2,8 @@
 @use '../abstracts/mixins' as m;
 .section { padding-block: v.$space-section; }
 .section--tint { background: v.$color-tint; }
-.section--blue { background: v.$color-blue; color: v.$color-white; .h-1, .h-2, .h-3 { color: v.$color-white; } }
-.section--dark { background: v.$color-dark; color: v.$color-white; .h-1, .h-2, .h-3 { color: v.$color-white; } }
+.section--blue { background: v.$color-blue; color: v.$color-white; :is(.hd-1, .hd-2, .hd-3) h2 { color: v.$color-white; } }
+.section--dark { background: v.$color-dark; color: v.$color-white; :is(.hd-1, .hd-2, .hd-3) h2 { color: v.$color-white; } }
 .split { display: grid; gap: clamp(1.75rem, 4vw, 4.5rem); align-items: center; @include m.up(lg) { grid-template-columns: 1fr 1fr; } }
 .split--top { align-items: start; }
 .split--reverse > :first-child { @include m.up(lg) { order: 2; } }

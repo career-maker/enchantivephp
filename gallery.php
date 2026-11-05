@@ -9,16 +9,16 @@ require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/hero-koh-phangan-coast.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
-  <div class="container hero__inner">
+  <div class="container hero__inner hd-display">
     <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li aria-current="page">Gallery</li></ol></nav>
-    <h1 class="h-display hero__title">Gallery</h1>
+    <h1>Gallery</h1>
   </div>
 </section>
 <section class="section gallery" aria-labelledby="gallery-title">
   <div class="container">
-    <div class="section-heading section-heading--center">
-      <p class="eyebrow">Moments &amp; Places</p>
-      <h2 class="h-1" id="gallery-title">A Glimpse of What We Arrange</h2>
+    <div class="section-heading section-heading--center has-eyebrow hd-1">
+      <p>Moments &amp; Places</p>
+      <h2 id="gallery-title">A Glimpse of What We Arrange</h2>
     </div>
     <ul class="gallery__grid" id="gallery-grid">
       <li class="gallery__item g-big" data-cat="destinations"><button class="gallery__btn" type="button" data-full="assets/images/hero-koh-phangan-coast.webp" data-caption="Thai island coastline" aria-label="Open photo: Thai island coastline"><img src="assets/images/hero-koh-phangan-coast.webp" alt="Island coastline and white-sand beach" width="1920" height="1080" loading="lazy"><span class="gallery__cap"><span></span><span class="gallery__zoom" aria-hidden="true"></span></span></button></li>

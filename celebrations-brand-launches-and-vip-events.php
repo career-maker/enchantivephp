@@ -9,19 +9,19 @@ require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/cel-06-brand-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
-  <div class="container hero__inner">
+  <div class="container hero__inner hd-display">
     <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li><a href="celebrations-events">Celebrations &amp; Experiences</a></li><li aria-current="page">Brand Launches &amp; VIP Events</li></ol></nav>
-    <h1 class="h-display hero__title">Brand Launches &amp; VIP Events</h1>
+    <h1>Brand Launches &amp; VIP Events</h1>
   </div>
 </section>
 <section class="section" aria-labelledby="c-title">
   <div class="container split split--top">
-    <div class="stack reveal"><p class="eyebrow">06 / 11</p><h2 class="h-1" id="c-title">Make your moment impossible to ignore.</h2><p class="lead">Whether you are unveiling a new product, introducing a brand or hosting distinguished guests, we create experiences that leave a lasting impression. From venue selection and event production to VIP hospitality, every element is designed to reflect your brand and bring your vision to life.</p><div class="media media--wide"><img src="assets/images/temp/mice-launch-temp.webp" alt="Brand Launches &amp; VIP Events" width="1400" height="933" loading="lazy"></div></div>
+    <div class="stack reveal has-eyebrow hd-1 lead-after-heading"><p>06 / 11</p><h2 id="c-title">Make your moment impossible to ignore.</h2><p>Whether you are unveiling a new product, introducing a brand or hosting distinguished guests, we create experiences that leave a lasting impression. From venue selection and event production to VIP hospitality, every element is designed to reflect your brand and bring your vision to life.</p><div class="media media--wide"><img src="assets/images/temp/mice-launch-temp.webp" alt="Brand Launches &amp; VIP Events" width="1400" height="933" loading="lazy"></div></div>
     <nav class="pager pager--inline" aria-label="Previous and next">
     <a href="celebrations-awards-nights-and-recognition-celebrations"><span>Previous</span>Awards Nights &amp; Recognition Celebrations</a>
     <a href="celebrations-corporate-anniversaries-and-milestone-events"><span>Next</span>Corporate Anniversaries &amp; Milestone Events</a>
     </nav>
-    <div class="related reveal"><h2 class="h-3 related__title">Related Experiences</h2>
+    <div class="related reveal hd-3"><h2>Related Experiences</h2>
     <div class="tile-aside"><a class="tile" href="celebrations-corporate-anniversaries-and-milestone-events"><img src="assets/images/temp/cel-07-anniversary-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Corporate Anniversaries &amp; Milestone Events</span></span></a><a class="tile" href="celebrations-private-parties-and-reunions"><img src="assets/images/temp/cel-08-parties-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Private Parties &amp; Reunions</span></span></a><a class="tile" href="celebrations-client-appreciation-experiences"><img src="assets/images/temp/cel-09-client-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Client Appreciation Experiences</span></span></a><a class="tile" href="celebrations-live-music-and-entertainment"><img src="assets/images/temp/cel-10-music-temp.webp" alt="" width="1400" height="933" loading="lazy"><span class="tile__body"><span class="tile__title">Live Music &amp; Entertainment</span></span></a></div>
     </div>
   </div>

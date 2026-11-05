@@ -9,9 +9,9 @@
 .contact-cards { position: relative; display: grid; gap: 1rem; list-style: none; padding: 0 clamp(0.75rem, 3vw, 3rem); margin: clamp(-4.5rem, -5vw, -2.5rem) 0 0; @include m.up(md) { grid-template-columns: repeat(3, 1fr); } }
 .contact-card { display: grid; grid-template-columns: 1.5rem 1fr; column-gap: 0.75rem; row-gap: 0.5rem; align-items: center; align-content: start; padding: 1.5rem 1.75rem; background: v.$color-white; border-radius: v.$radius-md; border: 1px solid v.$color-line; overflow-wrap: anywhere;
   svg { width: 1.5rem; height: 1.5rem; color: v.$color-red; fill: currentColor; }
-  &__title { font-family: v.$font-serif; font-weight: 400; font-size: 1.5rem; color: v.$color-blue; }
+  p:first-of-type { font-family: v.$font-serif; font-weight: 400; font-size: 1.5rem; color: v.$color-blue; }
   address { font-style: normal; } a:hover { text-decoration: underline; }
-  > :not(svg):not(.contact-card__title) { grid-column: 1 / -1; }
+  > :not(svg):not(p:first-of-type) { grid-column: 1 / -1; }
   &__link { color: v.$color-blue; font-weight: 500; } }
 .divider { display: flex; align-items: center; gap: 1.25rem; margin: clamp(3rem, 6vw, 5rem) 0 clamp(1.75rem, 3vw, 2.5rem); font-size: 0.8125rem; letter-spacing: 0.18em; text-transform: uppercase; color: v.$color-muted;
   &::before, &::after { content: ''; flex: 1; height: 1px; background: v.$color-line; } }
@@ -21,7 +21,7 @@
   img { width: 100%; height: 100%; object-fit: cover; } }
 .enquiry { display: grid; gap: clamp(2rem, 3.5vw, 2.75rem); padding: clamp(1.5rem, 3.5vw, 3rem); background: v.$color-tint; border-radius: v.$radius-md;
   &__group { border: 0; padding: 0; margin: 0; min-width: 0; }
-  legend { padding: 0; margin-bottom: 1.25rem; font-family: v.$font-serif; } }
+  legend { @include m.h-2; padding: 0; margin-bottom: 1.25rem; font-family: v.$font-serif; } }
 .choices { display: grid; gap: 0.75rem; @include m.up(sm) { grid-template-columns: repeat(2, minmax(0, 1fr)); } } // always 2 across; extra options add rows
 .choice { position: relative; display: block; cursor: pointer;
   input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
@@ -37,7 +37,7 @@
 .contact__intro { margin-bottom: clamp(1.25rem, 2.5vw, 2rem); }
 .contact-banner { aspect-ratio: 16 / 9; @include m.up(md) { aspect-ratio: 21 / 4; } }
 .contact-cards { margin-top: clamp(-3rem, -3.5vw, -1.75rem); }
-.contact-card { padding: 1rem 1.25rem; gap: 0.25rem; &__title { font-size: 1.25rem; } svg { width: 1.25rem; height: 1.25rem; } }
+.contact-card { padding: 1rem 1.25rem; gap: 0.25rem; p:first-of-type { font-size: 1.25rem; } svg { width: 1.25rem; height: 1.25rem; } }
 .divider { margin: clamp(1.75rem, 3.5vw, 2.5rem) 0 1.25rem; }
 .enquiry-wrap { @include m.up(lg) { grid-template-columns: 3fr 7fr; } }
 .enquiry-photo { @include m.up(lg) { aspect-ratio: 3 / 4; } }
@@ -73,8 +73,8 @@
 .say-hello { position: relative; isolation: isolate; display: grid; justify-items: center; gap: 0.75rem; margin-top: clamp(1.25rem, 2.5vw, 2rem); padding: clamp(2rem, 4vw, 3.25rem) clamp(1rem, 3vw, 2rem); border-radius: v.$radius-md; overflow: hidden; text-align: center; color: v.$color-white;
   img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
   &::before { content: ''; position: absolute; inset: 0; z-index: -1; background: rgba(4, 30, 62, 0.58); }
-  &__title { font-family: v.$font-serif; font-weight: 400; font-size: clamp(1.75rem, 3.4vw, 3rem); line-height: 1.15; color: v.$color-white; em { font-style: italic; } }
-  &__sub { color: rgba(255, 255, 255, 0.9); }
+  > h2 { font-family: v.$font-serif; font-weight: 400; font-size: clamp(1.75rem, 3.4vw, 3rem); line-height: 1.15; color: v.$color-white; em { font-style: italic; } }
+  > h2 + p { color: rgba(255, 255, 255, 0.9); }
   .quick-links { margin-top: 0.75rem; } }
 .say-hello .quick-link { color: v.$color-ink; &__text strong { color: v.$color-ink; } &__text span { color: v.$color-muted; } }
 
@@ -92,9 +92,9 @@
 // Say-hello: open, light layout (overrides the earlier gradient tile)
 .say-hello { background: none; color: v.$color-ink; padding: clamp(0.5rem, 1.5vw, 1rem) 0 0; margin-top: clamp(2rem, 4vw, 3rem); border-radius: 0; overflow: visible; gap: 0.5rem;
   &::after { display: none; }
-  &__eyebrow { display: flex; align-items: center; gap: 1rem; font-size: 0.8125rem; letter-spacing: 0.2em; text-transform: uppercase; color: #a8793a; &::before, &::after { content: ''; width: 2.5rem; height: 1px; background: #a8793a; } }
-  &__title { color: v.$color-ink; em { color: #a8793a; } }
-  &__sub { color: v.$color-muted; }
+  > p:first-child { display: flex; align-items: center; gap: 1rem; font-size: 0.8125rem; letter-spacing: 0.2em; text-transform: uppercase; color: #a8793a; &::before, &::after { content: ''; width: 2.5rem; height: 1px; background: #a8793a; } }
+  > h2 { color: v.$color-ink; em { color: #a8793a; } }
+  > h2 + p { color: v.$color-muted; }
   .quick-links { gap: clamp(1rem, 3vw, 2.5rem); margin-top: 1.25rem; flex-wrap: wrap; align-items: center; li + li { padding-left: clamp(1rem, 3vw, 2.5rem); border-left: 1px solid v.$color-line; } } }
 .say-hello .quick-link { width: auto; height: auto; padding: 0; gap: 0.875rem; border-radius: 0; background: none; color: v.$color-ink; justify-content: flex-start; box-shadow: none;
   &:hover { transform: none; background: none; }
@@ -130,24 +130,24 @@
   &__text strong { display: inline-flex; align-items: center; gap: 0.375rem; transition: transform 0.45s v.$ease, color 0.3s, background-size 0.5s v.$ease; background-image: linear-gradient(var(--c), var(--c)); &::after { content: '→'; opacity: 0; transform: translateX(-0.5rem); transition: opacity 0.35s, transform 0.45s v.$ease; } }
   &:hover .quick-link__text strong, &:focus-visible .quick-link__text strong { color: var(--c); transform: translateX(0.25rem); &::after { opacity: 1; transform: none; } } }
 // Header hover animations
-.say-hello__eyebrow { cursor: default; &::before, &::after { transition: width 0.7s v.$ease; } span { transition: letter-spacing 0.7s v.$ease; }
+.say-hello > p:first-child { cursor: default; &::before, &::after { transition: width 0.7s v.$ease; } span { transition: letter-spacing 0.7s v.$ease; }
   &:hover::before, &:hover::after { width: 4.5rem; } &:hover span { letter-spacing: 0.32em; } }
-.say-hello__title { cursor: default; transition: color 0.4s;
-  .say-hello__lead { display: inline-block; transition: transform 0.6s v.$ease, color 0.4s; }
+.say-hello > h2 { cursor: default; transition: color 0.4s;
+  > span:not(.word) { display: inline-block; transition: transform 0.6s v.$ease, color 0.4s; }
   em { position: relative; display: inline-block; transition: transform 0.6s v.$ease; &::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0.05em; height: 2px; background: #a8793a; transform: scaleX(0); transform-origin: left; transition: transform 0.7s v.$ease; } }
-  &:hover .say-hello__lead { transform: translateX(-0.3rem); color: v.$color-blue; }
+  &:hover > span:not(.word) { transform: translateX(-0.3rem); color: v.$color-blue; }
   &:hover em { transform: translateX(0.3rem); } &:hover em::after { transform: scaleX(1); } }
-.say-hello__sub { transition: color 0.4s, transform 0.6s v.$ease; .say-hello:hover & { color: v.$color-ink; } }
-@media (prefers-reduced-motion: reduce) { .say-hello__eyebrow *, .say-hello__title *, .say-hello__title { transition: none !important; } }
+.say-hello > h2 + p { transition: color 0.4s, transform 0.6s v.$ease; }
+.say-hello:hover > h2 + p { color: v.$color-ink; }
+@media (prefers-reduced-motion: reduce) { .say-hello > p:first-child *, .say-hello > h2 *, .say-hello > h2 { transition: none !important; } }
 
 // Phones: compact cards, icon sits beside the title
 @include m.down(md) {
   .contact-cards { gap: 0.625rem; }
   .contact-card { grid-template-columns: 1.25rem 1fr; column-gap: 0.6rem; row-gap: 0.1rem; align-items: center; padding: 0.75rem 1rem; font-size: 0.9375rem; line-height: 1.4;
     p, address { margin: 0; }
-    > :not(svg):not(.contact-card__title) { grid-column: 1 / -1; }
-    &__title { font-size: 1.125rem; line-height: 1.2; }
-    &__title:first-child { grid-column: 1 / -1; } }
+    > :not(svg):not(p:first-of-type) { grid-column: 1 / -1; }
+    p:first-of-type { font-size: 1.125rem; line-height: 1.2; } }
 }
 
 // Phones: the three quick links stay on one row (icon above label)

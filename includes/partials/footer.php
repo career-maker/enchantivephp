@@ -32,7 +32,7 @@
   <div class="site-footer__mark" aria-hidden="true"><div class="site-footer__mark-track"><span>ENCHANTIVE ASIA</span><span>ENCHANTIVE ASIA</span><span>ENCHANTIVE ASIA</span><span>ENCHANTIVE ASIA</span></div></div>
   <div class="site-footer__bar">
     <div class="container site-footer__bar-inner">
-      <p class="site-footer__legal">&copy; 2025 Enchantive Asia &nbsp;|&nbsp; All Rights Reserved &nbsp;|&nbsp; <a href="privacy">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms">Terms</a></p>
+      <p class="site-footer__legal">&copy; <?= date('Y') ?> Enchantive Asia &nbsp;|&nbsp; All Rights Reserved &nbsp;|&nbsp; <a href="privacy">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms">Terms</a></p>
       <ul class="social" aria-label="Social media">
         <li><span role="img" aria-label="Facebook (link to be added)"><svg aria-hidden="true"><use href="#i-facebook"/></svg></span></li>
         <li><span role="img" aria-label="YouTube (link to be added)"><svg aria-hidden="true"><use href="#i-youtube"/></svg></span></li>

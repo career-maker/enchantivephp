@@ -9,14 +9,14 @@ require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/villa-infinity-lounge.webp" alt="" width="1200" height="801" fetchpriority="high"></div>
-  <div class="container hero__inner">
+  <div class="container hero__inner hd-display">
     <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li aria-current="page">Services</li></ol></nav>
-    <h1 class="h-display hero__title">Curated Experiences, Extraordinary Journeys</h1>
+    <h1>Curated Experiences, Extraordinary Journeys</h1>
   </div>
 </section>
 <section class="section">
-  <div class="container">
-    <p class="service-intro lead reveal">We don’t just book itineraries from an office—we know Thailand inside out because we live and work right here on the ground. From handpicked private villas in Koh Samui and beachfront resorts in Phuket to secret Bangkok rooftops and quiet northern retreats, our portfolio gives you access you simply won’t find online. But what truly sets us apart is our team: we obsess over every single transfer, timing, and tiny detail, going all out behind the scenes so your experience is completely seamless. When you travel with Enchantive Asia, you’re not just getting a service—you’ve got Thailand’s sharpest team having your back 24/7.</p>
+  <div class="container service-intro lead-first">
+    <div class="reveal"><p>We don’t just book itineraries from an office—we know Thailand inside out because we live and work right here on the ground. From handpicked private villas in Koh Samui and beachfront resorts in Phuket to secret Bangkok rooftops and quiet northern retreats, our portfolio gives you access you simply won’t find online. But what truly sets us apart is our team: we obsess over every single transfer, timing, and tiny detail, going all out behind the scenes so your experience is completely seamless. When you travel with Enchantive Asia, you’re not just getting a service—you’ve got Thailand’s sharpest team having your back 24/7.</p></div>
   </div>
 </section>
 <section class="section section--flush-top" aria-label="Our services">

@@ -6,22 +6,22 @@
 body { font-family: v.$font-sans; font-weight: 350; font-optical-sizing: auto; font-size: 1.2rem; line-height: 1.46; color: v.$color-text; background: v.$color-white; }
 // One shared gap between adjacent body paragraphs on every page (stack/prose/CTA).
 :root { --para-gap: 0.8em; }
-p + p, .stack > p + p, .cta__text + .cta__text { margin-top: var(--para-gap); }
+p + p, .stack > p + p { margin-top: var(--para-gap); }
 
-// Heading classes are decoupled from tags (use the right tag, pick the look).
-.h-display, .h-1, .h-2, .h-3 { font-family: v.$font-serif; font-weight: 400; color: v.$color-ink; line-height: 1.2; letter-spacing: 0; }
-// Sizes measured from Design.pdf at 1920px (rem scales with viewport on desktop, see _reset.scss).
-.h-display { font-size: clamp(2rem, 6vw, 4.25rem); line-height: 1.075; }
-.h-1 { font-size: clamp(1.75rem, 4.5vw, 3.4rem); }
-.h-2 { font-size: clamp(1.5rem, 3.5vw, 2.5rem); }
-.h-3 { font-size: clamp(1.25rem, 1.6vw, 1.625rem); }
-.eyebrow { font-size: 0.8125rem; letter-spacing: 0.18em; text-transform: uppercase; color: v.$color-blue; font-weight: 500; }
-.lead { font-size: 1.375rem; line-height: 1.4; }
+// Editor content (h/p/ul/li carry no classes): a reusable parent class picks the look, e.g. <div class="hd-1"><h2>.
+// :where() keeps these at the lowest specificity so any section-specific parent rule overrides them.
+:where(.hd-display) h1 { @include m.h-display; }
+:where(.hd-1) h2 { @include m.h-1; }
+:where(.hd-2) h2 { @include m.h-2; }
+:where(.hd-3) h2 { @include m.h-3; }
+// Eyebrow = the paragraph directly above the heading.
+:where(.has-eyebrow) p:has(+ h2) { @include m.eyebrow; }
+:where(.has-eyebrow--light) p:has(+ h2) { color: #fff; }
+// Lead paragraph: parent says which paragraph is the lead (plain or inside a .reveal wrapper).
+:where(.lead-first) > p:first-child, :where(.lead-first) > :first-child > p,
+:where(.lead-last) > p:last-child, :where(.lead-last) > :last-child > p,
+:where(.lead-after-heading) h2 + p, :where(.lead-after-heading) > :has(> h2) + * > p { @include m.lead; }
 .sr-only { @include m.visually-hidden; }
-.eyebrow--light { color: #fff; }
 
-// Heading tuning; body copy balances/pretties line breaks.
-.h-display, .h-1, .h-2, .h-3 { font-weight: 360; letter-spacing: -0.015em; text-wrap: balance; }
-.h-display { letter-spacing: -0.02em; }
 p, li { text-wrap: pretty; }
 ::selection { background: rgba(6, 88, 167, 0.18); color: v.$color-ink; }

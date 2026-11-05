@@ -9,16 +9,16 @@ require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/bangkok-skyline.webp" alt="" width="1400" height="933" fetchpriority="high"></div>
-  <div class="container hero__inner">
+  <div class="container hero__inner hd-display">
     <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li aria-current="page">About Us</li></ol></nav>
-    <h1 class="h-display hero__title">Where Thailand Becomes Exceptional</h1>
+    <h1>Where Thailand Becomes Exceptional</h1>
   </div>
 </section>
 
 <section class="section" aria-label="Our story">
   <div class="container split split--top">
-    <div class="prose stack reveal">
-      <p class="lead">Enchantive Asia was created by professionals from Asia's luxury travel sector with one clear purpose: to deliver the highest standards of service, with the attention to detail that exceptional travel demands.</p>
+    <div class="prose stack reveal lead-first">
+      <p>Enchantive Asia was created by professionals from Asia's luxury travel sector with one clear purpose: to deliver the highest standards of service, with the attention to detail that exceptional travel demands.</p>
       <p>With more than 15 years of experience in the industry, our founders bring a deep understanding of luxury travel, hospitality, events and the people behind them. That experience shapes the way we work — from selecting the right partner and venue to managing the smallest detail on the ground.</p>
       <p>Since our founding, Enchantive Asia has built a strong reputation for looking after high-net-worth travellers, business leaders, expatriates and corporate groups, helping them experience Thailand at its very best.</p>
     </div>
@@ -32,9 +32,9 @@ require __DIR__ . '/includes/header.php';
 
 <section class="section about-vision" aria-labelledby="vision-title">
   <div class="container split split--top">
-    <div class="stack reveal">
-      <p class="eyebrow">Our Vision</p>
-      <h2 class="h-1" id="vision-title">The Difference Is in the Detail.</h2>
+    <div class="stack reveal has-eyebrow hd-1">
+      <p>Our Vision</p>
+      <h2 id="vision-title">The Difference Is in the Detail.</h2>
       <div class="media media--wide"><img src="assets/images/heritage-dining-room.webp" alt="Elegant teak-floored dining room with tall windows" width="1000" height="1250" loading="lazy"></div>
     </div>
     <div class="prose stack reveal">
@@ -53,18 +53,18 @@ require __DIR__ . '/includes/header.php';
 
 <section class="section" aria-labelledby="diff-title">
   <div class="container">
-    <div class="section-heading section-heading--center"><h2 class="h-1" id="diff-title">The Enchantive Difference</h2></div>
+    <div class="section-heading section-heading--center hd-1"><h2 id="diff-title">The Enchantive Difference</h2></div>
     <div class="feature-grid">
-      <article class="feature-card reveal"><span class="feature-card__num" aria-hidden="true">01</span><p class="feature-card__label">VIP Concierge</p><h3 class="feature-card__title">One Point of Contact. Every Detail Taken Care Of.</h3>
+      <article class="feature-card reveal"><span class="feature-card__num" aria-hidden="true">01</span><p>VIP Concierge</p><h3>One Point of Contact. Every Detail Taken Care Of.</h3>
         <p>From the first conversation to the final farewell, our team stays with you throughout the journey.</p>
         <p>Whether it's a private request, an executive requirement or a last-minute change, you have a team that knows your programme and knows how to make things happen.</p></article>
-      <article class="feature-card reveal"><span class="feature-card__num" aria-hidden="true">02</span><p class="feature-card__label">Tailor-Made Journeys</p><h3 class="feature-card__title">Designed Around You. Never Taken Off the Shelf.</h3>
+      <article class="feature-card reveal"><span class="feature-card__num" aria-hidden="true">02</span><p>Tailor-Made Journeys</p><h3>Designed Around You. Never Taken Off the Shelf.</h3>
         <p>Your interests, your schedule, your expectations.</p>
         <p>We create journeys around the people travelling — not around pre-designed packages. From private experiences to carefully planned corporate programmes, every element is considered with purpose.</p></article>
-      <article class="feature-card reveal"><span class="feature-card__num" aria-hidden="true">03</span><p class="feature-card__label">Local Connections</p><h3 class="feature-card__title">Thailand Is Our Home Ground.</h3>
+      <article class="feature-card reveal"><span class="feature-card__num" aria-hidden="true">03</span><p>Local Connections</p><h3>Thailand Is Our Home Ground.</h3>
         <p>Our strongest advantage is knowing the people and places behind the destination.</p>
         <p>Years of relationships across Thailand give us access to trusted hotels, venues, suppliers, guides, transport partners and experiences — including opportunities that aren't always available through standard travel channels.</p></article>
-      <article class="feature-card reveal"><span class="feature-card__num" aria-hidden="true">04</span><p class="feature-card__label">Value &amp; Partnership</p><h3 class="feature-card__title">Strong Relationships. Better Possibilities.</h3>
+      <article class="feature-card reveal"><span class="feature-card__num" aria-hidden="true">04</span><p>Value &amp; Partnership</p><h3>Strong Relationships. Better Possibilities.</h3>
         <p>Our long-standing relationships with hotels, venues and suppliers allow us to create programmes that balance quality, service and value.</p>
         <p>We don't simply find suppliers. We build partnerships that work for our clients.</p></article>
     </div>
@@ -73,11 +73,11 @@ require __DIR__ . '/includes/header.php';
 
 <section class="section section--tint" aria-labelledby="trust-title">
   <div class="container">
-    <div class="section-heading section-heading--center">
-      <h2 class="h-1" id="trust-title">Trusted by Those Who Expect More</h2>
-      <p class="prose">From global brands and corporate leaders to high-net-worth travellers and private clients, Enchantive Asia is trusted to deliver experiences where the details matter.</p>
+    <div class="section-heading section-heading--center section-heading--prose hd-1">
+      <h2 id="trust-title">Trusted by Those Who Expect More</h2>
+      <p>From global brands and corporate leaders to high-net-worth travellers and private clients, Enchantive Asia is trusted to deliver experiences where the details matter.</p>
     </div>
-    <p class="sr-only">Accreditation and partner logos</p>
+    <div class="sr-only">Accreditation and partner logos</div>
     <div class="logo-marquee-wrap">
     <ul class="logo-row logo-row--plain logo-row--center logo-row--marquee">
       <li><img src="assets/logos/tceb.webp" alt="Thailand Convention &amp; Exhibition Bureau (TCEB)" width="400" height="400" loading="lazy"></li>

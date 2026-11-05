@@ -9,15 +9,15 @@ require __DIR__ . '/includes/header.php';
 ?>
 <section class="hero hero--inner">
   <div class="hero__slides"><img class="hero__slide is-active" src="assets/images/temp/cel-hub-hero-temp.webp" alt="" width="1920" height="1080" fetchpriority="high"></div>
-  <div class="container hero__inner">
+  <div class="container hero__inner hd-display">
     <nav class="breadcrumbs hero__crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li><a href="services">Services</a></li><li aria-current="page">Celebrations &amp; Experiences</li></ol></nav>
-    <h1 class="h-display hero__title">Celebrations &amp; Experiences</h1>
+    <h1>Celebrations &amp; Experiences</h1>
   </div>
 </section>
 <section class="section" aria-labelledby="cel-title">
-  <div class="container split split--top">
-    <h2 class="h-1 reveal" id="cel-title">Celebrations and experience’s Every Occasion Deserves to Be Extraordinary.</h2>
-    <p class="lead reveal">From once-in-a-lifetime weddings to milestone celebrations and distinguished corporate gatherings, we bring people together through thoughtfully planned, beautifully executed events. We take the time to understand your vision, find the right setting and bring every detail together, so you can focus on the people and moments that matter most.</p>
+  <div class="container split split--top hd-1 lead-after-heading">
+    <div class="reveal"><h2 id="cel-title">Celebrations and experience’s Every Occasion Deserves to Be Extraordinary.</h2></div>
+    <div class="reveal"><p>From once-in-a-lifetime weddings to milestone celebrations and distinguished corporate gatherings, we bring people together through thoughtfully planned, beautifully executed events. We take the time to understand your vision, find the right setting and bring every detail together, so you can focus on the people and moments that matter most.</p></div>
   </div>
 </section>
 <section class="section section--flush-top" aria-label="Celebrations and experiences">
