@@ -2253,7 +2253,7 @@ html:not(.no-js) .preloader {
 .social a:hover, .social li > span:hover {
   background: rgba(255, 255, 255, 0.14);
 }
-.social svg {
+.social svg, .social img {
   width: 1.375rem;
   height: 1.375rem;
 }
@@ -2810,14 +2810,14 @@ html:not(.no-js) .preloader {
   padding-top: 0.65rem;
 }
 
-.cta--home {
-  padding-top: 16.2rem;
-}
 .cta--home .cta__bg {
   object-position: 50% 0;
 }
 .cta--home .cta__ghost {
   filter: brightness(0) opacity(0.045);
+}
+.cta--home {
+  padding-top: 16.2rem;
 }
 .cta--home .btn {
   margin-top: 3.2rem;
@@ -4464,12 +4464,14 @@ html:not(.no-js) .preloader {
   overflow: hidden;
   aspect-ratio: 16/10;
   border-radius: 1rem;
-  box-shadow: 0 1rem 2rem rgba(4, 68, 127, 0.16);
 }
 @media (min-width: 992px) {
   .luxe-item__media {
     aspect-ratio: 2.3/1;
   }
+}
+.luxe-item__media {
+  box-shadow: 0 1rem 2rem rgba(4, 68, 127, 0.16);
 }
 .luxe-item__media img {
   width: 100%;
@@ -4979,13 +4981,15 @@ html:not(.no-js) .preloader {
   position: relative;
   width: 100%;
   aspect-ratio: 16/9;
-  border-radius: 0.875rem;
-  overflow: hidden;
 }
 @media (min-width: 768px) {
   .contact-banner {
     aspect-ratio: 21/7;
   }
+}
+.contact-banner {
+  border-radius: 0.875rem;
+  overflow: hidden;
 }
 .contact-banner img {
   width: 100%;
@@ -5684,7 +5688,7 @@ input:focus-visible + .choice__body {
   background: #f4ebdd;
   color: #a8793a;
 }
-.choice__icon svg {
+.choice__icon svg, .choice__icon img {
   width: 1.375rem;
   height: 1.375rem;
 }
@@ -5700,6 +5704,9 @@ input:focus-visible + .choice__body {
 .choice input:checked + .choice__body .choice__icon {
   background: #0658a7;
   color: #fff;
+}
+.choice input:checked + .choice__body .choice__icon img {
+  filter: brightness(0) invert(1);
 }
 
 @media (max-width: 40rem) {
@@ -6069,15 +6076,17 @@ li:nth-child(3) > .say-hello .quick-link {
 .side-nav ol {
   display: grid;
   gap: 0.125rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 @media (min-width: 992px) {
   .side-nav ol {
     height: 100%;
     align-content: space-between;
   }
+}
+.side-nav ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .side-nav a {
   display: flex;
@@ -6238,7 +6247,6 @@ li:nth-child(3) > .say-hello .quick-link {
   grid-template-columns: 1fr 1fr;
   gap: 0.75rem;
   align-self: stretch;
-  grid-auto-rows: 1fr;
 }
 .photo-mosaic img {
   width: 100%;
@@ -6246,6 +6254,9 @@ li:nth-child(3) > .say-hello .quick-link {
   min-height: 12rem;
   object-fit: cover;
   border-radius: 0.875rem;
+}
+.photo-mosaic {
+  grid-auto-rows: 1fr;
 }
 
 .photo-trio {
