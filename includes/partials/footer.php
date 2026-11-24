@@ -26,7 +26,7 @@
     <div class="site-footer__contact">
       <div><h2 class="site-footer__title">Phone Number</h2><a href="tel:+6620282867">+66 2028 2867</a></div>
       <div><h2 class="site-footer__title">Email</h2><a href="mailto:info@enchantiveasia.com">info@enchantiveasia.com</a></div>
-      <div class="site-footer__address"><h2 class="site-footer__title">Address</h2><address>RASA TWO, Level 18, 1818, Petchaburi Road, Makkasan, Ratchathewi<br>Bangkok 10400, Thailand</address></div>
+      <div class="site-footer__address"><h2 class="site-footer__title">Address</h2><address>RASA TWO, Level 18, 1818, Petchaburi Road,<br>Makkasan, Ratchathewi<br>Bangkok 10400, Thailand</address></div>
     </div>
   </div>
   <div class="site-footer__mark" aria-hidden="true"><div class="site-footer__mark-track"><span>ENCHANTIVE ASIA</span><span>ENCHANTIVE ASIA</span><span>ENCHANTIVE ASIA</span><span>ENCHANTIVE ASIA</span></div></div>
