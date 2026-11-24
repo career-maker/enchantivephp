@@ -34,11 +34,11 @@
     <div class="container site-footer__bar-inner">
       <p class="site-footer__legal">&copy; <?= date('Y') ?> Enchantive Asia &nbsp;|&nbsp; All Rights Reserved &nbsp;|&nbsp; <a href="privacy">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms">Terms</a></p>
       <ul class="social" aria-label="Social media">
-        <li><span><img src="assets/icons/social/facebook.svg" alt="Facebook (link to be added)" width="22" height="22" loading="lazy"></span></li>
-        <li><span><img src="assets/icons/social/youtube.svg" alt="YouTube (link to be added)" width="22" height="22" loading="lazy"></span></li>
-        <li><span><img src="assets/icons/social/instagram.svg" alt="Instagram (link to be added)" width="22" height="22" loading="lazy"></span></li>
-        <li><span><img src="assets/icons/social/linkedin.svg" alt="LinkedIn (link to be added)" width="22" height="22" loading="lazy"></span></li>
-        <li><span><img src="assets/icons/social/x.svg" alt="X (link to be added)" width="22" height="22" loading="lazy"></span></li>
+        <li><a href="#" target="_blank" rel="noopener"><img src="assets/icons/social/facebook.svg" alt="Facebook (opens in a new tab)" width="22" height="22" loading="lazy"></a></li>
+        <li><a href="#" target="_blank" rel="noopener"><img src="assets/icons/social/youtube.svg" alt="YouTube (opens in a new tab)" width="22" height="22" loading="lazy"></a></li>
+        <li><a href="#" target="_blank" rel="noopener"><img src="assets/icons/social/instagram.svg" alt="Instagram (opens in a new tab)" width="22" height="22" loading="lazy"></a></li>
+        <li><a href="#" target="_blank" rel="noopener"><img src="assets/icons/social/linkedin.svg" alt="LinkedIn (opens in a new tab)" width="22" height="22" loading="lazy"></a></li>
+        <li><a href="#" target="_blank" rel="noopener"><img src="assets/icons/social/x.svg" alt="X (opens in a new tab)" width="22" height="22" loading="lazy"></a></li>
       </ul>
       <p class="site-footer__credit">Designed &amp; Developed By: <a class="site-footer__credit-link" href="http://intersmartsolution.com/" target="_blank" rel="noopener" aria-label="Intersmart (opens in a new tab)"><img src="assets/logos/intersmart.svg" alt="Intersmart" width="117" height="19" loading="lazy"></a></p>
     </div>
