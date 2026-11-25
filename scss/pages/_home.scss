@@ -449,9 +449,8 @@
   .more.section, #destinations.section { padding-block: 1.75rem; }
   #destinations .section-heading { margin-bottom: 1.25rem; }
   .more .carousel__nav { margin-top: 1.25rem; }
-  // keep the location photo in view while picking a destination
-  // JS moves the photo to sit right under the tapped destination
-  .locations__photo { aspect-ratio: 16 / 10; margin-block: 0.75rem 0.5rem; }
+  // Phones: no photo; tapping a destination goes straight to its page
+  .locations__photo { display: none; }
   .locations__more { justify-self: start; }
   .locations__btn { padding-block: 1rem; }
   #destinations .section-heading__aside .btn { display: none; }

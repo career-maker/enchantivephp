@@ -61,18 +61,15 @@ function initAnimation() {
     if (busy) { queued = t; return; }
     swap(t);
   };
-  // Phones: the photo opens directly under the tapped destination name.
+  // Phones: the photo is hidden (CSS) and each destination name works as a plain link.
   const photo = document.querySelector('.locations__photo');
-  const wrap = photo && photo.parentElement;
   const list = tabs[0] && tabs[0].parentElement;
   const mq = window.matchMedia('(max-width: 767.98px)');
   const isOn = (x) => x.getAttribute('aria-selected') === 'true' || x.getAttribute('aria-current') === 'true';
-  // On phones the photo sits inside the list, which tablist/tabpanel semantics do not allow: expose plain buttons (aria-current) there.
+  // With the photo hidden on phones, tablist/tabpanel semantics do not apply: expose plain buttons (aria-current) there.
   const roles = () => { const p = mq.matches; list.setAttribute('role', p ? 'group' : 'tablist'); photo.setAttribute('role', p ? 'none' : 'tabpanel');
     tabs.forEach((x) => { const on = isOn(x); if (p) { x.removeAttribute('role'); x.removeAttribute('aria-selected'); x.setAttribute('aria-current', String(on)); } else { x.setAttribute('role', 'tab'); x.removeAttribute('aria-current'); x.setAttribute('aria-selected', String(on)); } }); };
-  const place = (t) => { if (!photo) return; roles(); if (mq.matches) t.after(photo); else wrap.insertBefore(photo, wrap.querySelector('.locations__more')); };
-  const sel = () => tabs.find(isOn) || tabs[0];
-  if (photo && tabs.length) { place(sel()); mq.addEventListener('change', () => place(sel())); tabs.forEach((t) => t.addEventListener('click', () => { if (t.dataset.href && (!mq.matches || isOn(t))) { location.href = t.dataset.href; return; } place(t); })); }
+  if (photo && tabs.length) { roles(); mq.addEventListener('change', roles); tabs.forEach((t) => t.addEventListener('click', () => { if (t.dataset.href) location.href = t.dataset.href; })); }
   tabs.forEach((t) => ['mouseenter', 'focus', 'click'].forEach((ev) => t.addEventListener(ev, () => select(t))));
 }
 
