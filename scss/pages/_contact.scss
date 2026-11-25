@@ -166,6 +166,6 @@
 .choice__body { grid-template-columns: auto minmax(0, 1fr); }
 .choice__title, .choice__sub { overflow-wrap: anywhere; }
 .stepper { flex-wrap: wrap; li { flex: 1 1 6rem; min-width: 0; } }
-.enquiry__actions { flex-wrap: wrap; }
+.enquiry__actions { flex-wrap: wrap; @include m.down(md) { .btn { flex: 1 1 auto; } } }
 .enquiry { min-width: 0; }
 .contact-cards { @include m.up(md) { grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); } }

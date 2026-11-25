@@ -5994,6 +5994,11 @@ li:nth-child(3) > .say-hello .quick-link {
 .enquiry__actions {
   flex-wrap: wrap;
 }
+@media (max-width: 767.98px) {
+  .enquiry__actions .btn {
+    flex: 1 1 auto;
+  }
+}
 
 .enquiry {
   min-width: 0;
